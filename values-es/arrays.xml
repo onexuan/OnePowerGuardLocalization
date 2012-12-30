@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="networktip">
+		<item>No recordar nunca</item>
+		<item>Avisar en un minuto</item>
+		<item>Avisar en 5 minutos</item>
+		<item>Avisar en 15 minutos</item>
+		<item>Apagar wifi en 10 minutos</item>
+		<item>Apagar wifi en 15 minutos</item>
+		<item>Apagar wifi en 15 minutos</item>
+	</string-array>
+
+	<string-array name="hourKill">
+		<item>No limpiar</item>
+		<item>15 Minutos</item>
+		<item>30 Minutos</item>
+		<item>45 Minutos</item>
+		<item>1 Hora</item>
+		<item>2 Horas</item>
+		<item>3 Horas</item>
+		<item>4 Horas</item>
+		<item>5 Horas</item>
+		<item>6 Horas</item>
+		<item>7 Horas</item>
+		<item>8 Horas</item>
+		<item>9 Horas</item>
+		<item>10 Horas</item>
+		<item>11 Horas</item>
+		<item>12 Horas</item>
+	</string-array>
+</resources>

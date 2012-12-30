@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="networktip">
+		<item>永不提示</item>
+		<item>1分钟后提示</item>
+		<item>5分钟后提示</item>
+		<item>15分钟后提示</item>
+		<item>10分钟后关闭WIFI</item>
+		<item>15分钟后关闭WIFI</item>
+		<item>20分钟后关闭WIFI</item>
+	</string-array>
+	<string-array name="hourKill">
+	<item>关闭安全清理</item>
+		<item>15分钟</item>
+		<item>30分钟</item>
+		<item>45分钟</item>
+		<item>1  小时</item>
+		<item>2 小时</item>
+		<item>3 小时</item>
+		<item>4 小时</item>
+		<item>5 小时</item>
+		<item>6 小时</item>
+		<item>7 小时</item>
+		<item>8 小时</item>
+		<item>9 小时</item>
+		<item>10 小时</item>
+		<item>11 小时</item>
+		<item>12 小时</item>
+	</string-array>
+</resources>

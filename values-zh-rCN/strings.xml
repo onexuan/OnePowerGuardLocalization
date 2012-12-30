@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">One省电卫士</string>
+	<string name="optimize">优化</string>
+	<string name="application">应用</string>
+	<string name="switchstr">开关</string>
+	<string name="settings">设置</string>
+	<string name="status_label">状态:</string>
+	<string name="advanced">高级</string>
+	<string name="battery_status_label">状态:</string>
+	<string name="battery_power_label">插头:</string>
+
+
+	<string name="battery_level_label">电量:</string>
+	<string name="battery_health_label">电池:</string>
+	<string name="battery_technology_label">电池技术:</string>
+	<string name="battery_voltage_label">电压:</string>
+	<string name="battery_voltage_units">mV</string>
+	<string name="battery_temperature_label">温度:</string>
+	<string name="battery_temperature_units">度</string>
+	<string name="battery_status_charging">充电</string>
+	<string name="battery_status_charging_ac">(AC)</string>
+	<string name="battery_status_charging_usb">(USB)</string>
+	<string name="battery_status_discharging">放电</string>
+	<string name="battery_status_not_charging">未充电</string>
+	<string name="battery_status_full">充满</string>
+	<string name="battery_status_unknown">未知</string>
+	<string name="battery_power_unplugged">未插电</string>
+	<string name="battery_power_ac">AC</string>
+	<string name="battery_power_usb">USB</string>
+	<string name="battery_power_ac_usb">AC+USB</string>
+	<string name="battery_power_unknown">未知</string>
+	<string name="battery_health_unknown">未知</string>
+	<string name="battery_health_good">健康</string>
+	<string name="battery_health_overheat">过热</string>
+	<string name="battery_health_dead">生病</string>
+	<string name="battery_health_over_voltage">超过电压</string>
+	<string name="battery_health_unspecified_failure">未知错误</string>
+	<string name="turn_on">开启</string>
+	<string name="game">游戏:</string>
+	<string name="standby">待机:</string>
+	<string name="internet">互联网:</string>
+	<string name="read_book">读书:</string>
+	<string name="cpu_label">CPU:</string>
+	<string name="battery_stats_on_battery">
+		%s
+		on battery
+	</string>
+	<!-- Battery usage duration -->
+	<string name="battery_stats_duration">%s since unplugged
+	</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats charging state graph -->
+	<string name="battery_stats_charging_label">Charging</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats screen on state graph -->
+	<string name="battery_stats_screen_on_label">Screen on</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats gps on state graph -->
+	<string name="battery_stats_gps_on_label">GPS on</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats Wi-Fi running state graph -->
+	<string name="battery_stats_wifi_running_label">Wi-Fi</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats wake lock state graph -->
+	<string name="battery_stats_wake_lock_label">Awake</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats phone signal strength graph -->
+	<string name="battery_stats_phone_signal_label">手机信号</string>
+	<string name="turn_off">关闭</string>
+	<string name="battery_stats_last_duration">While last unplugged for %s</string>
+	<string name="root_fails">请确认是否获取Root权限！</string>
+	<!-- Label for kernel threads -->
+	<string name="process_kernel_label">Android系统</string>
+	<!-- Label for mediaserver process -->
+	<string name="process_mediaserver_label">多媒体服务</string>
+	<!-- Label for power consumed by the screen -->
+	<string name="power_screen">屏幕</string>
+	<!-- Label for power consumed by Wi-Fi -->
+	<string name="power_wifi">Wifi</string>
+	<!-- Label for power consumed by Bluetooth -->
+	<string name="power_bluetooth">蓝牙</string>
+	<!-- Label for power consumed by Cell idle -->
+	<string name="power_cell">待机</string>
+	<!-- Label for power consumed by Calling -->
+	<string name="power_phone">语音通话</string>
+	<!-- Label for power consumed when Idle -->
+	<string name="power_idle">手机待机</string>
+	<string name="about">关于</string>
+	<string name="all_rights">版本权所有</string>
+	<string name="copy_right">Copyright © 2012 Onexuan.com</string>
+	<string name="check_update">检查更新</string>
+	<string name="share">分享</string>
+	<string name="feedback">反馈</string>
+	<string name="loading">加载中...</string>
+	<string name="common">常用</string>
+	<string name="temperature">温度</string>
+	<string name="voltage">电压</string>
+	<string name="cpu">CPU</string>
+	<string name="help">帮助</string>
+	<string name="update">更新</string>
+	<string name="version">版本</string>
+	<string name="ai_battery">智能电池:</string>
+	<string name="battery_mode">电池模式:</string>
+	<string name="on">开</string>
+	<string name="off">关</string>
+	<string name="cpu_load">CPU负荷</string>
+	<string name="minute">分</string>
+	<string name="minute1">1分钟</string>
+	<string name="minute5">5分钟</string>
+	<string name="minute15">15分钟</string>
+	<string name="cpu_utilization">CPU利用率:</string>
+	<string name="normal">正常</string>
+	<string name="percentuser">65% - 70%</string>
+	<string name="percentsystem">30% - 35%</string>
+	<string name="percentidle">0% - 5%</string>
+	<string name="bluetooth_active">蓝牙活动:</string>
+	<string name="bluetooth_on">蓝牙开启:</string>
+	<string name="wifi_active">WIFI活动:</string>
+	<string name="wifi_on">蓝牙开启:</string>
+	<string name="radio_active">通讯活动:</string>
+	<string name="wifi_scan">Wifi扫描:</string>
+	<string name="radio_scan">通讯扫描:</string>
+	<string name="screen_on">屏幕开启:</string>
+	<string name="video">视频:</string>
+	<string name="audio">音频:</string>
+	<string name="gps_on">GPS开启:</string>
+	<string name="cpu_active">CPU活动:</string>
+	<string name="cpu_awake">CPU Awake:</string>
+	<string name="cpu_idle">CPU空闲:</string>
+	<string name="radio_on">通讯开启:</string>
+	<string name="available">可用:</string>
+	<string name="total">总:</string>
+	<string name="mode">模式</string>
+	<string name="mode_label">模式:</string>
+	<string name="history">历史</string>
+	<string name="highest">最高:</string>
+	<string name="lowest">最低:</string>
+	<string name="call_time">通话时间</string>
+	<string name="book_time">阅读时间</string>
+	<string name="game_time">游戏时间</string>
+	<string name="music_time">音乐时间</string>
+	<string name="network_time">网络时间</string>
+	<string name="video_time">视频时间</string>
+	<string name="standby_time">待机时间</string>
+	<string name="camera_time">摄像时间</string>
+	<string name="wifi_time">Wifi 时间</string>
+	<string name="phone_type_label">型号:</string>
+	<string name="quick_mode">快捷模式</string>
+	<string name="wifi">Wifi</string>
+	<string name="gps">GPS</string>
+	<string name="wireless">2G/3G</string>
+	<string name="auto_sync">自动同步</string>
+	<string name="bluetooth">蓝牙</string>
+	<string name="flashlighit">Flashlighit</string>
+	<string name="airplane">飞行模式</string>
+	<string name="mobile_data">移动网络数据</string>
+	<string name="ring_mode">铃声</string>
+	<string name="brightness">亮度</string>
+	<string name="mode_settings">模式设置</string>
+	<string name="customize_settings">个性化设置</string>
+	<string name="quick_settings">快捷设置</string>
+	<string name="log">Log</string>
+	<string name="precent0">0%</string>
+	<string name="policy_label">优化策略:</string>
+	<string name="bluetooth_time">蓝牙时间</string>
+	<string name="cell_time">3G时间</string>
+	<string name="running_service">服务中</string>
+	<string name="not_running">未运行</string>
+	<string name="running">运行中</string>
+	<string name="menu_stats_total">Usage totals</string>
+	<string name="menu_stats_unplugged">%s since unplugged</string>
+	<string name="refresh">刷新</string>
+	<string name="top_power_applications">Top Power Apps</string>
+	<string name="custom_mode">自定义模式</string>
+	<string name="game_video_mode">游戏/视频模式</string>
+	<string name="daily_mode">日常模式</string>
+	<string name="standby_mode">待机模式</string>
+	<string name="ai_mode">智能模式</string>
+	<string name="powersave_mode">省电模式</string>
+	<string name="system">系统</string>
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	<string name="make_sure_to_wipe_battery_status">确认对电池进行校正？</string>
+	<string name="make_sure_to_wipe_dalvik_cache">Make sure to wipe dalvik cache?</string>
+	<string name="volume">音量控制</string>
+	<string name="wifi_hotspot">Wifi热点</string>
+	<string name="hidden_settings">隐藏设置</string>
+	<string name="visible_settings">显示设置</string>
+	<string name="status_unknown">未知状态</string>
+	<string name="optimizing_filesystem">优化系统中...</string>
+	<string name="optimizing_io">优化IO(输入/输出)中..</string>
+	<string name="optimizing_vm">优化虚拟机中..</string>
+	<string name="init">初始化中...</string>
+	<string name="zero">0</string>
+	<string name="status">状态</string>
+	<string name="ram_label">内存:</string>
+	<string name="safe_clean">安全清理</string>
+	<string name="total_power">总耗电量</string>
+	<string name="since_charged">自从充电</string>
+	<string name="get_battery_list_error">获取电量列表出错</string>
+	<string name="powersave_settings">省电设置</string>
+	<string name="customize">个性化</string>
+	<string name="mobile_radio">手机通讯</string>
+	<string name="auto_rotate">自动旋转屏幕</string>
+	<string name="master_volume">主控音量</string>
+	<string name="the_current_mode">目前模式:</string>
+	<string name="compare">对比:</string>
+	<string name="zerouah">0(uah)</string>
+	<string name="the_average_power_consumption">平均耗电量</string>
+	<string name="volume_descr">点击控制音量</string>
+	<string name="volume_ringer">铃声音量</string>
+	<string name="volume_notification">通知音量</string>
+	<string name="volume_media">多媒体音量</string>
+	<string name="volume_alarm">闹钟音量</string>
+	<string name="volume_voice_call">通话音量</string>
+	<string name="volume_system">系统音量</string>
+	<string name="volume_bind">将铃声音量作为通知音量</string>
+	<string name="optimization_options">优化选项</string>
+	<string name="show_phone_information">显示手机信息</string>
+	<string name="show_the_cpu_frequency_chart">显示CPU频率表</string>
+	<string name="show_cpu_load_chart">显示CPU负荷表</string>
+	<string name="show_temperature_chart">显示温度表</string>
+	<string name="show_voltage_chart">显示电压表</string>
+	<string name="show_the_average_power">显示平均耗电量</string>
+	<string name="mode_options">模式选项</string>
+	<string name="app_tips">应用提示</string>
+	<string name="days">天</string>
+	<string name="hours">小时</string>
+	<string name="minutes">分钟</string>
+	<string name="seconds">秒</string>
+	<string name="freememory">优化内存</string>
+	<string name="save">保存</string>
+	<string name="restore_default">默认</string>
+	<string name="ringer_silent">静音</string>
+	<string name="ringer_sound">仅声音</string>
+	<string name="ringer_vibro">仅振动</string>
+	<string name="ringer_vibrosound">声音 &amp; 振动</string>
+	<string name="optimize_io">优化的IO（输入/输出）</string>
+	<string name="optimize_system">优化系统</string>
+	<string name="app">应用</string>
+	<string name="hardware">硬件</string>
+	<string name="monitor_power_usage_settings">监控电量使用设置</string>
+	<string name="need_to_re_open_the_power_monitor">需重新打电量监控开关</string>
+	<string name="screen_timeout">屏幕超时</string>
+	<string name="screen_timeout_value_seconds">%d秒</string>
+	<string name="screen_timeout_value_minute">%d分</string>
+	<string name="screen_timeout_value_minutes">%d分</string>
+	<string name="screen_timeout_value_never">永不超时</string>
+	<string name="notification">状态栏通知</string>
+	<string name="show_battery_percentage_in_the_status_bar">在状态栏显示电量百分比</string>
+	<string name="the_floating_window">浮动窗</string>
+	<string name="show_a_floatation_window_on_the_desktop">在桌面上显示一个浮动窗</string>
+	<string name="ringtone_tips">铃声提示</string>
+	<string name="ringtone_tips_when_the_status_change">铃声提示当状态变化时</string>
+	<string name="all">所有</string>
+	<string name="turned_off">关闭</string>
+	<string name="turned_on">开启</string>
+	<string name="disabled">禁用</string>
+	<string name="enabled">启用</string>
+	<string name="sdcard_storage">SD卡存储</string>
+	<string name="phone_data_storage">手机数据存储</string>
+	<string name="ram_memory">RAM内存剩余百分比</string>
+	<string name="this_is_the_default_setting">此选项为默认设置</string>
+	<string name="changing_mode">更改模式中...</string>
+	<string name="checking_for_update">检查更新中...</string>
+	<string name="check_for_updates_fails">更新失败，请确保网络正常</string>
+	<string name="your_current_version_is_the_newest">您目前的版本已经是最新版本</string>
+	<string name="downloading_the_upgrade_package">正在下载升级包，请等待...</string>
+	<string name="battery_calibration">电池校正</string>
+	<string name="battery_calibration_info">第一步：插入充电器\n第二步：等待电量达到100%\n第三步：点击“电池校正”\n第四步：拨出充电器或重启手机
+	</string>
+	<string name="sunday">星期日</string>
+	<string name="monday">星期一</string>
+	<string name="tuesday">星期二</string>
+	<string name="wednesday">星期三</string>
+	<string name="thursday">星期四</string>
+	<string name="friday">星期五</string>
+	<string name="saturday">星期六</string>
+	<string name="wait_till_100_shown">请等待充完100%</string>
+	<string name="current_charge">目前充电:</string>
+	<string name="calibration_succeeded">校正成功，请拔出充电器!</string>
+	<string name="calibrafion_failed">校正失败，请确认你的手机是ROOT!</string>
+	<string name="master_volume_desc">铃: %1$d, 通: %2$d, 媒: %3$d, 闹: %4$d</string>
+	<string name="turn_on_ai_battery">一键开启Ai电量</string>
+	<string name="turn_off_ai_battery">关闭Ai电量</string>
+	<string name="battery_temperature_overheat_alert">电池温度过热提醒</string>
+	<string name="rild">Android通讯服务</string>
+	<string name="akmd">Android传感器</string>
+	<string name="dhcpcd">Android网络服务</string>
+	<string name="plugin_your_phone_to_the_charger">请插入充电器！</string>
+	<string name="close">关闭</string>
+	<string name="please_unplug_your_phone">请拨出充电器或重启手机！</string>
+	<string name="performance">最佳性能</string>
+	<string name="interactive">达到最高后递减方式</string>
+	<string name="conservative">以保守方式</string>
+	<string name="ondemand">按需</string>
+	<string name="powersave">省电</string>
+	<string name="userspace">按用户进程需要</string>
+	<string name="keystore">Android认证服务</string>
+	<string name="optimizing_cpu">优化CPU中...</string>
+	<string name="update_version">更新版本</string>
+	<string name="current_version">目前版本：</string>
+	<string name="latest_version">最新版本：</string>
+	<string name="mah">毫安</string>
+	<string name="uah">微安</string>
+	<string name="memory_is_currently_in_a_great_state">内存目前处于绝佳状态。</string>
+	<string name="memory_has_been_released">已释放%1$s内存，释放比例%2$s</string>
+	<string name="important_tips">重要提示</string>
+	<string name="optimization_tips">优化提示</string>
+	<string name="optimization_suggestions">优化建议</string>
+	<string name="consume">耗电:</string>
+	<string name="power_consumption_information">耗电量信息</string>
+	<string name="statistics">统计</string>
+	<string name="hardware_usage">硬件使用情况</string>
+	<string name="usage_type_on_time">已运行时间</string>
+	<string name="battery_sugg_display">降低屏幕亮度，并且/或者缩短屏幕超时时间</string>
+	<string name="battery_sugg_wifi">不使用 Wi-Fi 或其不可用时将其关闭</string>
+	<string name="battery_sugg_bluetooth_basic">请在未使用蓝牙功能时将其关闭</string>
+	<string name="wakeup_time">唤醒时间</string>
+	<string name="battery_sugg_radio">1、不上网时请关闭无线网络，能节省电量\n2、如果不在信号覆盖范围内时切换到飞行模式，以节约电量
+	</string>
+	<string name="total_power_consumption">总耗电量:</string>
+	<string name="optimizing_internet">优化网络中...</string>
+	<string name="optimizing_kernel">优化内核...</string>
+	<string name="optimizing_wifi">优化Wifi...</string>
+	<string name="optimizing_sdcard">优化SD卡...</string>
+	<string name="the_charger_status_changes">充电器状态变化</string>
+	<string name="power_full">电量充满</string>
+	<string name="important_optimization_information">重要优化信息</string>
+	<string name="we_improve_the_power_for_you">我们为您提高电池电量，由%1$s提升到%2$s</string>
+	<string name="no_optimization_information">暂时没有优化信息</string>
+	<string name="no_app_information">暂时无主动防御信息</string>
+	<string name="you_can_uninstall_the_application">当第三方应用耗电量达到一定比例时，可卸载该应用</string>
+	<string name="the_third_party_applications">第三方应用</string>
+	<string name="can_not_uninstall">无法卸载</string>
+	<string name="can_not_run_this_app">无法运行应用的设置界面</string>
+	<string name="turn_off_idle">1、关闭背景数据\n2、关闭自动同步\n3、关闭GPS\n4、关闭Wifi\n5、关闭Wifi热点\n6、关闭蓝牙
+	</string>
+	<string name="no_suggestions">暂无建议</string>
+	<string name="version_update">版本更新</string>
+	<string name="sizestr">大小:</string>
+	<string name="later">稍后再说</string>
+	<string name="betide">发生于:</string>
+	<string name="auto_brightness">自动亮度</string>
+	<string name="usb">USB</string>
+	<string name="protecting_your_battery">正保护您的电池中...</string>
+	<string name="dbusdaemon">Android消息守护进程</string>
+	<string name="bootanimation">开机动画</string>
+	<string name="floating_window_animation">浮动窗动画</string>
+	<string name="slide_left">从左滑动</string>
+	<string name="slide_right">从右滑动</string>
+	<string name="slide_top">从上滑动</string>
+	<string name="fade_center">中间飞入</string>
+	<string name="none">无</string>
+	<string name="the_desktop_floating_window_animation">桌面浮动窗动画</string>
+	<string name="hidden">隐藏界面</string>
+	<string name="protecting_your_battery_time">保护您的电池时间：</string>
+	<string name="settings_options">设置选项</string>
+	<string name="brightness_title">降低屏幕亮度</string>
+	<string name="brightness_descr">
+		设置屏幕让你觉得舒服最低值亮度：\n\n
+
+		1、打开“应用程序”选项卡，然后点击设置，然后点选显示。\n
+		2、点击亮度，并设定所需的设置值。\n
+	</string>
+	<string name="test">测试</string>
+	<string name="enter_search_key">输入搜索关键字</string>
+	<string name="a_key_improve">一键优化</string>
+	<string name="scanning">扫描中...</string>
+	<string name="remind">提醒</string>
+	<string name="usage_type_cpu">CPU 总使用时间</string>
+	<string name="usage_type_cpu_foreground">CPU（前台）</string>
+	<string name="status_awake_time">唤醒时间</string>
+	<string name="get_battery_data_error">获取电池数据出错</string>
+	<string name="scale">渐变谈进</string>
+	<string name="always_top">总是最上面</string>
+	<string name="floating_on_the_desktop">浮动于桌面</string>
+	<string name="detecting_power_consumption_app">正在检测耗电应用，请稍候...</string>
+	<string name="real_time_protection_is_turned_on">实时保护已开启</string>
+	<string name="real_time_protection_is_turned_off">实时保护已关闭</string>
+	<string name="the_floatation_window_infomation">浮动窗内容</string>
+	<string name="show_infomation_in_the_floatation_window">在浮动窗上显示信息</string>
+	<string name="internet_speed">网速</string>
+	<string name="battery_level">电量</string>
+	<string name="quick_scan">快速扫描</string>
+	<string name="consumption_apps">耗电应用</string>
+	<string name="used">已用：</string>
+	<string name="invalid_optimization_after_restart">省电优化重启后失效</string>
+	<string name="wifi_tips">WIFI提示</string>
+	<string name="wifi_tips_when_the_status_changes">WIFI断开时提示</string>
+	<string name="change_brightness">改变屏幕亮度</string>
+	<string name="download">下载</string>
+	<string name="upload">上传</string>
+	<string name="list_is_empty">列表为空</string>
+	<string name="clear_customize">清删个性化</string>
+	<string name="setting_customize">设置个性化</string>
+	<string name="customization_is_turned_on">个性化已开启</string>
+	<string name="charge_protection">充电保护时间:</string>
+	<string name="uncharge_protection">未充电保护时间:</string>
+	<string name="optimization_is_complete">优化完成</string>
+	<string name="your_phone_is_good">您的手机状况良好</string>
+	<string name="improve_battery_desc">优化电量,从%1$s提高至%2$s</string>
+	<string name="is_a_non_power_consumption_application">为非耗电应用</string>
+	<string name="is_a_power_consumption_application">为耗电应用</string>
+	<string name="close_the_usb_debug">可考虑关闭USB调试，减少系统唤醒</string>
+	<string name="please_enter_the_feedback_content">请输入反馈内容</string>
+	<string name="email">邮箱：</string>
+	<string name="qq">QQ：</string>
+	<string name="msg_feedback">反馈已成功提交，我们将及时处理你的反馈。</string>
+	<string name="failure_feedback_msg">反馈提交失败，请检查是否是网络问题</string>
+	<string name="submiting_feedback">提交反馈中...</string>
+	<string name="install_time">安装时间：</string>
+	<string name="uninstalled">已卸载</string>
+	<string name="application_has_been_uninstalled">此应用已卸载</string>
+	<string name="feedbacking">反馈中...</string>
+	<string name="email_format_is_not_correct">电子邮箱格式不正确</string>
+	<string name="connection_timed_out">连接超时</string>
+	<string name="one_battery_desc">
+		One省电卫士是一款不同的android电池保护软件，让您的android设备在一样的使用环境下，大大延长电量和待机时间，它通过调优系统内核、cpu优化、安全查杀死耗电进程、主动防御耗电应用，深度睡眠、调整WiFi参数、优化充电参数，快速更改设置等，大大提高设备性能、电池电量，并延长设备待机时间和电池寿命。\n\n
+		One省电卫士运行于大多数Root了的android手机和平板上，简单但实用的必备省电工具。
+
+	</string>
+	<string name="one_battery_features"> 特点\n 1.延长待机时间，增强系统深度睡眠和电池寿命，优化充电参数\n
+		2.优化系统参数，提高设备性能\n
+		3.6种个性化省电模式，满足不同使用场景\n
+		4.主动防御耗电应用，安全查杀耗电进程\n
+		5.快捷开关设置，方便关闭耗电硬件，系统配置随心所欲\n
+		6.给予您电源保护建议，查看CPU参数等
+	</string>
+	<string name="ai_mode_desc">智能模式：你可以设置它用于按需使用。\n我们建议使用<b>Ondemand</b>策略。它可以按需分配CPU，当CPU需要时，它会设置为最大频率，随着时间缓慢降低频率，合理的用电，你可以设置中间频率。\n\n同时，我们建议使用<b>CFQ</b> IO调度，如果没用它，可以使用默认的。
+	</string>
+	<string name="powersave_mode_desc">省电模式：你可以设置它为了平衡使用和省电。\n我们建议使用<b>Powersave</b>策略。它始终保持在低的CPU频率，最不耗电，使用时反应不灵敏，你可以把CPU设置为低频率又不影响使用。\n\n同时，我们建议使用<b>CFQ</b> IO调度，如果没用它，可以使用默认的。
+	</string>
+	<string name="game_mode_desc">游戏/视频模式：你可以设置它来玩游戏或看视频，享受顺划的操作和流畅的视频体验。\n我们建议使用<b>Performance</b>策略。它始终保持在高的CPU频率，最耗电，反应灵敏，你可以设置较高频率。\n\n同时，我们建议使用<b>CFQ</b> IO调度，如果没用它，可以使用默认的。
+	</string>
+	<string name="daily_mode_desc">日常模式：你可以设置它用于日常使用。\n我们建议使用<b>Ondemand</b>策略。它可以按需分配CPU，当CPU需要时，它会设置为最大频率，随着时间缓慢降低频率，合理的用电，你可以使用中间频率，可以设置更顺畅的频率。\n\n同时，我们建议使用<b>CFQ</b> IO调度，如果没用它，可以使用默认的。
+	</string>
+	<string name="standby_mode_desc">待机模式：你可以设置它用于待机。\n我们建议使用<b>Powersave</b>策略。它始终保持在低的CPU频率，最不耗电，使用时反应不灵敏，因为是待机，可以把CPU设置为最低。\n\n同时，我们建议使用<b>CFQ</b> IO调度，如果没用它，可以使用默认的。
+	</string>
+	<string name="custom_mode_desc">自定义模式：我们没什么建议，设置您喜欢的。
+	</string>
+	<string name="mode_choose">如何更改电池保护模式？\n 1、进入优化界面\n
+		2、选择电池保护模式\n
+	</string>
+	<string name="failure">失败</string>
+	<string name="succes">成功</string>
+	<string name="canceled">取消</string>
+	<string name="could_not_initialize_the_paypal">无法初始化贝宝</string>
+	<string name="unable_to_connect_to_the_network">无法连接网络</string>
+	<string name="defense">主动防御</string>
+	<string name="clean">清理</string>
+	<string name="powersave_mode_payment">省电付费模式</string>
+	<string name="game_mode_payment">游戏/视频付费模式</string>
+	<string name="daily_mode_payment">日常付费模式</string>
+	<string name="standby_mode_payment">待机付费模式</string>
+	<string name="custom_mode_payment">自定义付费模式</string>
+	<string name="payment_failure">付费失败</string>
+	<string name="payment_succes">成功付费</string>
+	<string name="canceled_payment">取消付费</string>
+	<string name="bluetoothd">Android守护进程</string>
+	<string name="special_offers">特价优惠</string>
+	<string name="special_offers_desc">升级为高级用户，拥有不一样的省电模式，特价优惠贡献%1$s美元即可使用所有模式</string>
+	<string name="time_left">续航时间:</string>
+	<string name="special_offers_show">恭喜您，你已经是高级用户，拥有所有省电模式。</string>
+	<string name="upgrade_to_the_custom_user">升级为自定义用户，可以自定义CPU频率，CPU策略，IO调整，贡献%1$s美元</string>
+	<string name="upgrade_to_the_powersaving_user">升级为省电用户，你可以在使用与省电之间找到平衡，贡献%1$s美元</string>
+	<string name="upgrade_to_the_video_game_user">升级为游戏视频用户，您将能享受顺划的操作和流畅的视频体验，贡献%1$s美元</string>
+	<string name="upgrade_to_the_business_user">升级为商务用户，让通话时间更长，贡献%1$s美元</string>
+	<string name="upgrade_to_the_standby_user">升级为待机用户，如果您喜欢待机，贡献%1$s美元</string>
+	<string name="wifi_disconnect_for_power_saving">WIFI断开省电</string>
+	<string name="min">最小</string>
+	<string name="max">最大</string>
+	<string name="cpu_frequency">CPU频率</string>
+	<string name="cpu_governor">CPU策略</string>
+	<string name="io_scheduler">IO调度</string>
+	<string name="initialization_error">初始化错误</string>
+	<string name="proactive_defense_is_turned_on">主动防御已开启</string>
+	<string name="power_saving_tips">省电提示</string>
+	<string name="no_sdcard_cannot_save_the_certificate">无sd卡，无法保存证书</string>
+	<string name="installed_power_consumption_apps">已安装耗电应用</string>
+	<string name="device_information">设备信息</string>
+	<string name="proactive_defense">主动防御</string>
+	<string name="weibo">#One省电卫士#是一款电池保护软件，刷机用户必须工具，它通过调优系统内核、cpu优化、安全查杀死耗电进程、主动防御耗电应用，深度睡眠、调整WiFi参数、优化充电参数，快速更改设置等，大大延长电量和待机时间，Android
+		Play下载地址：http://sina.lt/dUN
+	</string>
+	<string name="wakeup_apps">唤醒进程</string>
+	<string name="audio_1"> 取消勾选:1、"按键音" 2、"触摸音" 3、"锁屏音"</string>
+	<string name="now_experience">立即体验</string>
+	<string name="boot_power_saving_protection">开机省电保护</string>
+	<string name="when_restart_your_phone_automatic_power_saving_protection">重启后，自动开启省电保护</string>
+	<string name="why_do_you_need_one_power_guard_for_root_users">
+		对于刷机用户你为何需要One省电卫士？\n
+		点击立即体验后，把你的手机放上一个晚上，早上起床时看看你的电量，你会很惊讶。\n
+		测试如下：\n
+		1、你可以待机一个晚上，对比其他省电应用。\n
+		2、你可以待机一个晚上，当你没有安装One省电卫士。\n
+		3、为了对比优化效果，需要重启手机，这样能确保一个干净的环境。\n
+	</string>
+	<string name="disable_wifi_title">不使用WIFI，禁用WIFI</string>
+	<string name="disable_wifi_desc">当Wifi不使用时，禁用WIFI，能大大降低功耗:\n\n
+
+		1、打开“应用程序”选项卡，然后点击设置。点选无线网路控制或无线网络。\n
+		2、关闭Wi-Fi。\n
+	</string>
+	<string name="disable_gps_title">禁用GPS定位服务</string>
+	<string name="disable_the_gps_desc">1、打开“应用程序”选项卡，然后点击设置，然后点一下“位置和安全性。
+		在此屏幕中，取消“使用GPS卫星”复选框\n
+	</string>
+	<string name="disable_bluetooth_title">不使用蓝牙，禁用蓝牙</string>
+	<string name="disable_bluetooth_desc">当不使用时，禁用蓝牙，能大大降低功耗:\n\n
+
+		1、打开“应用程序”选项卡，然后点击设置，点选无线网路控制或无线网络。\n
+		2、关闭蓝牙。\n
+	</string>
+	<string name="set_timeout_title">设置屏幕超时</string>
+	<string name="set_timeout_desc">
+		设定的值越低，越能节省电池电量:\n\n
+
+		1、打开“应用程序”选项卡，然后点击设置。然后点选音效与显示\n
+		2、点击屏幕超时，将其设置为一个较低的值，例如15秒\n
+	</string>
+	<string name="disable_sync_title">禁用同步</string>
+	<string name="disable_sync_desc">1、打开“应用程序”选项卡，然后点击设置， 点选账号&amp;
+		同步.\n
+		2、取消数据和自动同步\n
+	</string>
+	<string name="wallpaper_title">不要使用动画壁纸</string>
+	<string name="wallpaper_desc">Android
+		系统的最大特点是它支持动画壁纸和它只是外观看起来棒，但缺点是因为会消耗大量的电量，所以可用一般壁纸取代动画壁纸
+	</string>
+	<string name="wallpaper">壁纸</string>
+	<string name="a_desr">1安=1000毫安=1000000微安</string>
+	<string name="deep_sleep">深度睡眠</string>
+	<string name="cpu_stats">CPU状态</string>
+	<string name="unused_cpu_frequency">未使用的cpu频率</string>
+	<string name="total_uptime">总的运行时间</string>
+	<string name="cpu_frequency_ratio">cpu频率比率</string>
+	<string name="wakeups">唤醒次数: </string>
+	<string name="launches">运行次数: </string>
+	<string name="using_all_the_CPU_frequency">使用所有cpu频率</string>
+	<string name="story">首先，我想请你们告诉我，你们在使用android最大的难题是什么，很多人会向我抱怨很多问题，比如：死机、开机慢、电池问题、应用挂起等等，我和你们遇到同样的遭遇。\n\n
+
+		一年前，我经历了一件事，我买了我第一台android手机并刷了CM
+		ROM系统，频繁使用了二个月后，发现每天在不断的重复着同样的事情：充电，甚至经常晚上充满电后待机，早上起床后竟然只剩一半电量，这让人无法忍受的，同样的，一些刷机用户和我有同样的遭遇，如果你的电池无法坚持一天，那是件非常糟糕的事情，为了节电，我开始下载一些省电应用，每天安装一个省电应用，充满电量后，等待另一天起床，对比它能否帮我节省电量，就这样测试了一个多月，却没有一款让我满意，然而一些省电应用使电量消耗得更快，于是我在思考能否开发一个很酷的应用，就这样，我开始了解android电量管理机制，搜索了大量省电资料，接下来的几个月，一边写代码，一边优化电量管理，每天调试着优化参数，测试待机消耗的电量，某天，一个令我兴奋不已的发现，待机一个晚上，电量竟然只消耗一点，就这样我把它做成软件，想与你们一起分享。\n\n
+
+		如果你同样遇到同样的问题，而且手机刷过，你可以试试One省电卫士，下载地址：onexuan.com\n\n
+
+		为了节省电量，One省电卫士做了一些优化：\n
+		1.延长待机时间，增强系统深度睡眠和电池寿命，优化充电参数\n
+		2.优化系统参数，提高设备性能\n
+		3.6种个性化省电模式，满足不同使用场景\n
+		4.主动防御耗电应用，安全查杀耗电进程\n
+		5.快捷开关设置，方便关闭耗电硬件，系统配置随心所欲\n
+		6.给予您电源保护建议，查看CPU参数等\n
+
+		对于刷机用户你为何需要One省电卫士？\n
+		把你的手机放上一个晚上，早上起床时看看你的电量，你会很惊讶。\n
+		测试方法如下：\n
+		1、你可以待机一个晚上，对比其他省电应用。\n
+
+		2、你可以待机一个晚上，当你没有安装One省电卫士。\n
+
+		3、为了对比优化效果，需要重启手机，这样能确保一个干净的环境。\n
+	</string>
+	<string name="standby_problems">电池待机问题？</string>
+	<string name="contact_us">请联系paypal或发邮件到contact@onexuan.com</string>
+	<string name="warn">警告</string>
+	<string name="warn_info">这次调整将优化您的内核，CPU，网络，SD卡读写，内存，重启手机可以恢复原始参数值，请确认是否优化？
+	</string>
+	<string name="remind_warn">不再提醒</string>
+	<string name="this_optimization_will_run_the_AI_mode">这次优化将运行智能模式。</string>
+	<string name="support_app">如果你喜欢这个应用，请支持我们的优化工作，它将不再提示这个界面，而且您将用到以后所有优化功能。
+	</string>
+	<string name="questions_in_use">如果在使用中有什么问题，请浏览&lt;a
+		href=\"http://forum.xda-developers.com/showthread.php?t=1889740&lt;\"&gt;http://forum.xda-developers.com/showthread.php?t=1889740&lt;\\a&gt;，欢迎好评。
+	</string>
+	<string name="try_it">试试吧</string>
+	<string name="no_support_to_adjust_the_cpu_frequency">不支持调节CPU频率</string>
+	<string name="no_support_to_adjust_the_cpu_policy">不支持调节CPU策略</string>
+	<string name="no_support_to_adjust_the_io_scheduler">不支持调节IO调度</string>
+	<string name="real_time_protection">实时保护</string>
+	<string name="your_phone_does_not_support_this_setting">您的手机不支持此设置</string>
+	<string name="what_is_a_safe_clean">什么是安全清理？</string>
+	<string name="safe_clean_info">Android有一个进程管理机制，当进程被第三方应用杀死后，android系统会判断进程是否再次运行，如果是，进程会再次运行，重复杀死进程会死循环，电量消耗，因此你应该考虑卸载第三方进程管理软件。
+	</string>
+	<string name="in_such_cases">遇到这种情况，请及时从官网升级最新版本 http://www.onexuan.com</string>
+	<string name="unable_to_open_sharing">无法打开分享</string>
+	<string name="how_to_restore_the_original">如何恢复手机原始参数？</string>
+	<string name="restore_info">所有模式优化您的内核，CPU，网络，SD卡读写，内存，如果你觉得优化效果不好，可以在设置界面取消选中开机保护，或卸载应用，重启手机后恢复原始参数值</string>
+	<string name="why_does_it_run_in_the_background">为何运行在后台？</string>
+	<string name="background_info">我们拥有一种“安全清理”的技术，为了保护您的电池，需要定时清理</string>
+	<string name="reviews">评论</string>
+	<string name="others">其他</string>
+	<string name="one_percent_hack">1%电量显示</string>
+	<string name="ten_percent_info">设备只显示10％的倍数的解决方法</string>
+	<string name="poweroff">关机</string>
+	<string name="poweroff_tips">关机提示</string>
+	<string name="auto_poweroff_device_info">在电量低于一定的值时自动关机</string>
+	<string name="user_reviews_from_google_play">从Google Play更新或评论</string>
+	<string name="google_play">Google Play</string>
+	<string name="official_website">官网</string>
+	<string name="update_from_official_website">从官网更新</string>
+	<string name="install_tips">请确保你有root权限，One省电卫士能访问Root权限，如果超级权限要求，确保“记住”复选框被选中，然后按允许。\n\n
+	此应用程序调整硬件设置，请谨慎并在您风险控制下使用。\n\n
+	由于安卓的碎片化，不同手机表现不同，这个应用仍然在进步中，一些功能将完善，一些BUG将修复，如果它导致一些问题，请到http://forum.xda-developers.com/showthread.php?t=1947559 反馈你的问题，并且更新最新版本。\n\n
+	不要使用任务管理器杀One省电卫士。\n\n
+	一些手机强制手机进入休眠，在较低的速度可能会造成死机，例如：Galaxy S。
+	</string>
+	<string name="xda_forum_discuss">XDA开发者论坛讨论</string>
+	<string name="discussion_and_feedback">讨论和反馈问题</string>
+	<string name="continuestr">继续</string>
+	<string name="checking_cpu">正在检查您的系统是否自动调整 CPU...</string>
+	<string name="automatic_adjustment">你的手机本身已具有自动调节CPU功能，你不必更改CPU。</string>
+	<string name="notification_style">电池通知风格</string>
+	<string name="show_battery_notification_style">显示电池通知风格</string>
+	<string name="defaultstr">默认</string>
+	<string name="white">白色</string>
+	<string name="green">绿色</string>
+	<string name="orange">橙色</string>
+	<string name="give_up">放弃</string>
+	<string name="onepercentinfo">如果您使用的是<b>Motorola Droid</b>、<b>Droid X</b>、 <b>Droid 2</b>、<b>Defy</b>或<b>Samsung Moment</b>机型，请在“其他设置”中勾选“10%步进模式”。一些Motorola不支持。</string>
+	<string name="your_phone_does_not_support">您的手机不支持</string>
+	<string name="why_drain">手机连接电脑为什么会掉电？</string>
+	<string name="drain_power_info">因为充电时会唤醒手机，也许您可以更新Android驱动解决这个问题，或接口老化。</string>
+	<string name="unconfigured">未配置</string>
+    <string name="configured">已配置</string>
+    <string name="only_supports_root_user">只支持ROOT用户</string>
+    <string name="optimize_vm">优化虚拟机(VM)</string>
+    <string name="optimize_deep_sleep">植入深度睡眠</string>
+    <string name="optimize_network">优化网络(TCP\\IPV4\\读写内存)</string>
+    <string name="optimize_wireless">优化无线(WIFI\\UMTS\\GPRS\\EDGE)</string>
+    <string name="optimize_ril">优化RIL</string>
+    <string name="optimize_sdcard">优化SD卡读写</string>
+    <string name="optimize_kernel">优化内核</string>
+    <string name="saved_successfully">保存成功</string>
+         <string name="special_thanks">特别感谢luis diaz(herone)的西班牙语翻译，Dave(DaGunn)的英语抛光，Georg Aubele(Der-Knuffi)的德语翻译，再次感谢他们的努力工作。</string>
+         <string name="thanks">感谢</string>
+         <string name="free_up_memory">释放内存</string>
+	<string name="return_to_the_desktop_free_up_memory">返回桌面后，释放内存</string>
+	<string name="time_in_state_file_missing">找不到/sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state，也许可以通过重启解决问题</string>
+	<string name="show_fahrenheit_temperature">显示华氏温度</string>
+	<string name="fahrenheit_temperature_units">℉</string>
+	<string name="set_on_boot">开机</string>
+	<string name="memory">内存</string>
+	<string name="poweroff_settings">关机设置</string>
+	<string name="poweroff_log">关机日志</string>
+	<string name="why_the_device_is_slow_after_setting">为什么设置后设备缓慢？</string>
+	<string name="my_story">我想告诉你一个故事， 一天一位用户找到我，他告诉我关于安装2.1版本所遇到的问题，他说他的手机变得缓慢， 我告诉那我们一起解决这个问题吧，下班后，我回到宿舍，我开始为他写测试界面， 大约一个半小时后， 它开始测试十个我写的步骤，最后，每一个 步骤都远行良好，但问题依然未找到， 我让他再次运行智能模式， 因为他的手机不支持CPU调节， 因此我判断问题出来IO调度上，他设置的是"CFQ"，我让他改变IO调度(他的ROM只支持CFQ和Noop)，于是他更改了IO调度 ，测试后，所有东西运行正常， 最终解决问题
+	\n\n最后结论: 尝试更改一些设置直到它最完美。</string>
+	<string name="sort_by_total_power_consumption">总电量消耗排序</string>
+	<string name="sort_by_power_comparison_value">电量比较值排序</string>
+	<string name="sort">排序</string>
+	<string name="one_xuan">I\'m in your droid, unique apps from here\n One is all cool(xuan).</string>
+	<string name="proactive_defense_tips">主动防御提示</string>
+	<string name="turn_off_proactive_defense_tips">关闭主动防御提示</string>
+	<string name="unable_to_open_the_mobile_data_interface">无法打开移动数据界面，它不可用</string>
+	<string name="unable_to_open_the_interface">无法打开界面，它不可用</string>
+	<string name="the_amount_of_free_ram">剩余RAM内存</string>
+</resources>

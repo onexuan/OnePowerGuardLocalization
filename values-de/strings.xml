@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">One Power Guard</string>
+	<string name="optimize">Optimiere</string>
+	<string name="application">App</string>
+	<string name="switchstr">Schalter</string>
+	<string name="settings">Einstellungen</string>
+	<string name="status_label">Status: </string>
+	<string name="advanced">Fortgeschritten</string>
+	<string name="battery_status_label">Status:</string>
+	<string name="battery_power_label">Eingesteckt:</string>
+
+	<string name="battery_level_label">Level:</string>
+	<string name="battery_health_label">Zustand:</string>
+	<string name="battery_technology_label">Technologie:</string>
+	<string name="battery_voltage_label">Spannung:</string>
+	<string name="battery_voltage_units">mV</string>
+	<string name="battery_temperature_label">Temperatur:</string>
+	<string name="battery_temperature_units">\u00B0 C</string>
+	<string name="battery_status_charging">Lädt</string>
+	<string name="battery_status_charging_ac">(AC)</string>
+	<string name="battery_status_charging_usb">(USB)</string>
+	<string name="battery_status_discharging">Entlädt</string>
+	<string name="battery_status_not_charging">Lädt nicht</string>
+	<string name="battery_status_full">Voll</string>
+	<string name="battery_status_unknown">Unbekannt</string>
+	<string name="battery_power_unplugged">Getrennt</string>
+	<string name="battery_power_ac">AC</string>
+	<string name="battery_power_usb">USB</string>
+	<string name="battery_power_ac_usb">AC+USB</string>
+	<string name="battery_power_unknown">Unbekannt</string>
+	<string name="battery_health_unknown">Unbekannt</string>
+	<string name="battery_health_good">Gut</string>
+	<string name="battery_health_overheat">Batterie überhitzt!</string>
+	<string name="battery_health_dead">Defekte Batterie!</string>
+	<string name="battery_health_over_voltage">Überspannung</string>
+	<string name="battery_health_unspecified_failure">Unbekannter Fehler!</string>
+	<string name="turn_on">Einschalten</string>
+	<string name="game">Spiel:</string>
+	<string name="standby">Standby:</string>
+	<string name="internet">Internet:</string>
+	<string name="read_book">Lesen:</string>
+	<string name="cpu_label">CPU:</string>
+	<string name="battery_stats_on_battery">
+		%s
+		an der Batterie
+	</string>
+	<!-- Battery usage duration -->
+	<string name="battery_stats_duration">%s seit dem Abstecken
+	</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats charging state graph -->
+	<string name="battery_stats_charging_label">Lädt</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats screen on state graph -->
+	<string name="battery_stats_screen_on_label">Bildschirm an</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats gps on state graph -->
+	<string name="battery_stats_gps_on_label">GPS an</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats Wi-Fi running state graph -->
+	<string name="battery_stats_wifi_running_label">WiFi</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats wake lock state graph -->
+	<string name="battery_stats_wake_lock_label">Wach</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats phone signal strength graph -->
+	<string name="battery_stats_phone_signal_label">Telefonsignal</string>
+	<string name="turn_off">Ausschalten</string>
+	<string name="battery_stats_last_duration">Seit dem letzten Abstecken für %s</string>
+	<string name="root_fails">Benötige Root-Zugriff!</string>
+	<!-- Label for kernel threads -->
+	<string name="process_kernel_label">Android OS</string>
+	<!-- Label for mediaserver process -->
+	<string name="process_mediaserver_label">Media Server</string>
+	<!-- Label for power consumed by the screen -->
+	<string name="power_screen">Bildschirm</string>
+	<!-- Label for power consumed by Wi-Fi -->
+	<string name="power_wifi">WiFi</string>
+	<!-- Label for power consumed by Bluetooth -->
+	<string name="power_bluetooth">Bluetooth</string>
+	<!-- Label for power consumed by Cell idle -->
+	<string name="power_cell">Telefon Standby</string>
+	<!-- Label for power consumed by Calling -->
+	<string name="power_phone">Anrufe</string>
+	<!-- Label for power consumed when Idle -->
+	<string name="power_idle">Telefon inaktiv</string>
+	<string name="about">Über</string>
+	<string name="all_rights">Alle Rechte vorbehalten</string>
+	<string name="copy_right">Copyright © 2012 Onexuan.com</string>
+	<string name="check_update">Suche nach Updates</string>
+	<string name="share">Teile</string>
+	<string name="feedback">Feedback</string>
+	<string name="loading">Lädt ...</string>
+	<string name="common">Allgemein</string>
+	<string name="temperature">Temperatur</string>
+	<string name="voltage">Spannung</string>
+	<string name="cpu">CPU</string>
+	<string name="help">Hilfe</string>
+	<string name="update">Update</string>
+	<string name="version">Version</string>
+	<string name="ai_battery">AI Batterie:</string>
+	<string name="battery_mode">Batterie-Modus:</string>
+	<string name="on">AN</string>
+	<string name="off">AUS</string>
+	<string name="cpu_load">CPU Belastung</string>
+	<string name="minute">Minute</string>
+	<string name="minute1">1 Minute</string>
+	<string name="minute5">5 Minuten</string>
+	<string name="minute15">15 Minuten</string>
+	<string name="cpu_utilization">CPU Gebrauch:</string>
+	<string name="normal">Normal</string>
+	<string name="percentuser">65% - 70%</string>
+	<string name="percentsystem">30% - 35%</string>
+	<string name="percentidle">0% - 5%</string>
+	<string name="bluetooth_active">Bluetooth aktiv:</string>
+	<string name="bluetooth_on">Bluetooth an:</string>
+	<string name="wifi_active">WiFi aktiv:</string>
+	<string name="wifi_on">WiFi an:</string>
+	<string name="radio_active">Empfang aktiv:</string>
+	<string name="wifi_scan">WiFi Suche:</string>
+	<string name="radio_scan">Empfang Suche:</string>
+	<string name="screen_on">Bildschirm an:</string>
+	<string name="video">Video:</string>
+	<string name="audio">Audio:</string>
+	<string name="gps_on">GPS an:</string>
+	<string name="cpu_active">CPU aktiv:</string>
+	<string name="cpu_awake">CPU wach:</string>
+	<string name="cpu_idle">CPU inaktiv:</string>
+	<string name="radio_on">Empfang an:</string>
+	<string name="available">Vorhanden:</string>
+	<string name="total">Total:</string>
+	<string name="mode">Modus</string>
+	<string name="mode_label">Modus:</string>
+	<string name="history">Verlauf</string>
+	<string name="highest">Höchster:</string>
+	<string name="lowest">Niedrigster:</string>
+	<string name="call_time">Anruf Dauer</string>
+	<string name="book_time">Lesen Dauer</string>
+	<string name="game_time">Game Dauer</string>
+	<string name="music_time">Musik Dauer</string>
+	<string name="network_time">Netzwerk Dauer</string>
+	<string name="video_time">Video Dauer</string>
+	<string name="standby_time">Standby Dauer</string>
+	<string name="camera_time">Kamera Dauer</string>
+	<string name="wifi_time">WiFi Dauer</string>
+	<string name="phone_type_label">Type</string>
+	<string name="wipe_battery_status">Lösche Batteriestatus</string>
+	<string name="wipe_dalvik_cache">Lösche Dalvik Cache</string>
+	<string name="quick_mode">Schnellmodus</string>
+	<string name="wifi">Wifi</string>
+	<string name="gps">GPS</string>
+	<string name="wireless">2G/3G/4G</string>
+	<string name="auto_sync">Auto Sync</string>
+	<string name="bluetooth">Bluetooth</string>
+	<string name="flashlight">Blitzlicht</string>
+	<string name="airplane">Offline</string>
+	<string name="mobile_data">Mobile Daten</string>
+	<string name="ring_mode">Klingelton</string>
+	<string name="brightness">Helligkeit</string>
+	<string name="mode_settings">Modus-Einstellungen</string>
+	<string name="customize_settings">Einstellungen anpassen</string>
+	<string name="quick_settings">Schnelleinstellungen</string>
+	<string name="wipe">Löschen</string>
+	<string name="log">Log</string>
+	<string name="precent0">0%</string>
+	<string name="policy_label">Optimierungsstrategie:</string>
+	<string name="bluetooth_time">Bluetooth Dauer</string>
+	<string name="cell_time">3G/4G Dauer</string>
+	<string name="running_service">Laufender Service</string>
+	<string name="not_running">Läuft nicht</string>
+	<string name="running">Läuft</string>
+	<string name="menu_stats_total">Gesamter Verbrauch</string>
+	<string name="menu_stats_unplugged">%s seit dem Trennen</string>
+	<string name="refresh">Aktualisieren</string>
+	<string name="top_power_applications">Meist verbauchende Apps</string>
+	<string name="custom_mode">Angepasster Modus</string>
+	<string name="game_video_mode">Game/Video Modus</string>
+	<string name="daily_mode">Täglicher Modus</string>
+	<string name="standby_mode">Standby Modus</string>
+	<string name="ai_mode">AI Modus</string>
+	<string name="powersave_mode">Energiesparmodus</string>
+	<string name="system">System</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="make_sure_to_wipe_battery_status">Soll der Batteriestatus gelöscht werden?</string>
+	<string name="make_sure_to_wipe_dalvik_cache">Soll der Dalvik Cache gelöscht werden?</string>
+	<string name="volume">Lautstärkeregelung</string>
+	<string name="wifi_hotspot">WiFi Hotspot</string>
+	<string name="hidden_settings">Versteckte Einstellungen</string>
+	<string name="visible_settings">Sichtbare Einstellungen</string>
+	<string name="status_unknown">Status unbekannt</string>
+	<string name="optimizing_filesystem">Optimiere System...</string>
+	<string name="optimizing_io">Optimiere IO...</string>
+	<string name="optimizing_vm">Optimiere VM...</string>
+	<string name="init">Initialisiere ...</string>
+	<string name="zero">0</string>
+	<string name="status">Status</string>
+	<string name="ram_label">RAM:</string>
+	<string name="safe_clean">Sicheres Löschen</string>
+	<string name="total_power">Gesamtleistung</string>
+	<string name="since_charged">Seit dem Laden</string>
+	<string name="get_battery_list_error">Get Battery List Error</string>
+	<string name="powersave_settings">Energiespareinstellungen</string>
+	<string name="customize">Anpassen</string>
+	<string name="mobile_radio">Telefonempfang</string>
+	<string name="auto_rotate">Automatisches Drehen der Anzeige</string>
+	<string name="master_volume">Hauptlautstärke</string>
+	<string name="the_current_mode">Momentaner Modus:</string>
+	<string name="compare">Vergleich:</string>
+	<string name="zerouah">0(uah)</string>
+	<string name="the_average_power_consumption">Durchschnittlicher Energieverbrauch</string>
+	<string name="volume_descr">Drücke, um die Lautstärke zu verändern</string>
+	<string name="volume_ringer">Klingellautstärke</string>
+	<string name="volume_notification">Benachrichtigungslautstärke</string>
+	<string name="volume_media">Medienlautstärke</string>
+	<string name="volume_alarm">Alarmlautstärke</string>
+	<string name="volume_voice_call">Gesprächslautstärke</string>
+	<string name="volume_system">Systemlautstärke</string>
+	<string name="volume_bind">Benutze Klingellutstärke für Benachrichtigungen</string>
+	<string name="optimization_options">Optimierungsmöglichkeiten</string>
+	<string name="show_phone_information">Zeige Geräteinformationen</string>
+	<string name="show_the_cpu_frequency_chart">Zeige CPU Frequenzdiagramm</string>
+	<string name="show_cpu_load_chart">Zeige CPU Belastungsdiagramm</string>
+	<string name="show_temperature_chart">Zeige Temperaturdiagramm</string>
+	<string name="show_voltage_chart">Zeige Spannungsdiagramm</string>
+	<string name="show_the_average_power">Zeige durchschnittliche Leistung</string>
+	<string name="mode_options">Moduseinstellungen</string>
+	<string name="app_tips">App Tipps</string>
+	<string name="days">d</string>
+	<string name="hours">h</string>
+	<string name="minutes">m</string>
+	<string name="seconds">s</string>
+	<string name="freememory">Optimiere Speicher</string>
+	<string name="save">Speichern</string>
+	<string name="restore_default">Standard</string>
+	<string name="ringer_silent">Still</string>
+	<string name="ringer_sound">Nur Sound</string>
+	<string name="ringer_vibro">Nur Vibration</string>
+	<string name="ringer_vibrosound">Sound &amp; Vibration</string>
+	<string name="optimize_io">Optimiere IO (Input/Output)</string>
+	<string name="optimize_system">Optimiere System</string>
+	<string name="app">App</string>
+	<string name="hardware">Hardware</string>
+	<string name="monitor_power_usage_settings">Einstellungen für Überwachung des Energieverbrauchs</string>
+	<string name="need_to_re_open_the_power_monitor">Bitte öffnen Sie die Energieüberwachung erneut</string>
+	<string name="screen_timeout">Bildschirm Timeout</string>
+	<string name="screen_timeout_value_seconds">%d Sekunden</string>
+	<string name="screen_timeout_value_minute">%d Minute</string>
+	<string name="screen_timeout_value_minutes">%d Minuten</string>
+	<string name="screen_timeout_value_never">Keinen Timeout</string>
+	<string name="notification">Benachrichtigung</string>
+	<string name="show_battery_percentage_in_the_status_bar">Zeige Ladestand der Batterie in der Status Bar</string>
+	<string name="the_floating_window">Das schwebende Fenster</string>
+	<string name="show_a_floatation_window_on_the_desktop">Zeige das schwebende Fenster auf dem Desktop</string>
+	<string name="ringtone_tips">Klingelton Tipps</string>
+	<string name="ringtone_tips_when_the_status_change">Klingelton Tips wenn der Status wechselt</string>
+	<string name="all">Alle</string>
+	<string name="turned_off">Ausgeschalten</string>
+	<string name="turned_on">Angeschalten</string>
+	<string name="disabled">Deaktiviert</string>
+	<string name="enabled">Aktiviert</string>
+	<string name="sdcard_storage">SDCard Speicher</string>
+	<string name="phone_data_storage">Telefon Datenspeicher</string>
+	<string name="ram_memory">Der Anteil der RAM frei</string>
+	<string name="this_is_the_default_setting">Standardeinstellungen</string>
+	<string name="changing_mode">Wechsle Modus...</string>
+	<string name="checking_for_update">Überprüfe auf Update...</string>
+	<string name="check_for_updates_fails">Update fehlgeschlagen: Netzwerkverbindung überprüfen!
+	</string>
+	<string name="your_current_version_is_the_newest">Sie haben die neueste Version.</string>
+	<string name="downloading_the_upgrade_package">Lade Upgrade herunter, bitte warten ...
+	</string>
+	<string name="battery_calibration">Batteriekalibrierung</string>
+	<string name="battery_calibration_info">Schritt 1. Gerät mit der Ladestation verbinden\nSchritt
+		2.
+		Warten, bis es zu 100% geladen ist\nSchritt 3. \'Batteriekalibrierung\' drücken\nSchritt 4. Gerät von Ladestation trennen
+	</string>
+	<string name="sunday">Sonntag</string>
+	<string name="monday">Montag</string>
+	<string name="tuesday">Dienstag</string>
+	<string name="wednesday">Mittwoch</string>
+	<string name="thursday">Donnerstag</string>
+	<string name="friday">Freitag</string>
+	<string name="saturday">Samstag</string>
+	<string name="wait_till_100_shown">Warten bis 100% angezeigt werden.</string>
+	<string name="current_charge">Momentaner Ladestand:</string>
+	<string name="calibration_succeeded">Kalibrierung erfolgreich! Trennen Sie das Gerät nun von der Ladestation!
+	</string>
+	<string name="calibrafion_failed">Kalibrierung fehlgeschlagen! Das Gerät muss gerootet sein!
+	</string>
+	<string name="master_volume_desc">R: %1$d, N: %2$d, M: %3$d, A: %4$d</string>
+	<string name="turn_on_ai_battery">Eingeschaltet</string>
+	<string name="turn_off_ai_battery">Ausgeschaltet</string>
+	<string name="battery_temperature_overheat_alert">Warnung! Batterieüberhitzung!</string>
+	<string name="rild">Android Radio Service</string>
+	<string name="akmd">Android G-Sensor</string>
+	<string name="dhcpcd">Android DHCP Service</string>
+	<string name="plugin_your_phone_to_the_charger">Bitte das Gerät mit der Ladestation verbinden.</string>
+	<string name="close">Schließen</string>
+	<string name="please_unplug_your_phone">Bitte das Gerät von der Ladestation trennen.
+	</string>
+	<string name="performance">Leistung</string>
+	<string name="interactive">Interaktiv</string>
+	<string name="conservative">Konservativ</string>
+	<string name="ondemand">Auf Verlangen</string>
+	<string name="powersave">Powersave</string>
+	<string name="userspace">Userspace</string>
+	<string name="keystore">Android KeyStore Service</string>
+	<string name="optimizing_cpu">Optimiere CPU ...</string>
+	<string name="update_version">Update Version</string>
+	<string name="current_version">Momentane Version: </string>
+	<string name="latest_version">Neueste Version:</string>
+	<string name="mah">mA</string>
+	<string name="uah">μA</string>
+	<string name="memory_is_currently_in_a_great_state">Der Speicher ist in gutem Zustand.</string>
+	<string name="memory_has_been_released">Speicher wurde frei gegeben %1$s, Freigabe %2$s
+	</string>
+	<string name="important_tips">Wichtige Tipps</string>
+	<string name="optimization_tips">Optimiierungstipps</string>
+	<string name="optimization_suggestions">Optimierungsvorschläge</string>
+	<string name="consume">Energie:</string>
+	<string name="power_consumption_information">Informationen zum Energieverbrauch</string>
+	<string name="statistics">Statistiken</string>
+	<string name="hardware_usage">Hardware Gebrauch</string>
+	<string name="usage_type_on_time">Zeit aktiv</string>
+	<string name="battery_sugg_display">Bildschirmhelligkeit und/oder Bildschirm Timeout verringen
+	</string>
+	<string name="battery_sugg_wifi">WiFi ausschalten, wenn es nicht benötigt wird oder keine Verbindung hat
+	</string>
+	<string name="battery_sugg_bluetooth_basic">Bluetooth aussschalten, wenn es nicht benutzt wird
+	</string>
+	<string name="wakeup_time">Aktive Zeit</string>
+	<string name="battery_sugg_radio">1、Mobile Daten auaschalten, wenn sie nicht benötigt werden\n2、Auf Offline Modus schalten, wenn das Telefon keinen Empfang hat
+	</string>
+	<string name="total_power_consumption">Gesamter Energieverbrauch:</string>
+	<string name="optimizing_internet">Optimiere Internet ...</string>
+	<string name="optimizing_kernel">Optimiere Kernel ...</string>
+	<string name="optimizing_wifi">Optimiere WiFi ...</string>
+	<string name="optimizing_sdcard">Optimiere SDCard ...</string>
+	<string name="the_charger_status_changes">Der Ladestatus hat sich geändert.</string>
+	<string name="power_full">Aufgeladen</string>
+	<string name="important_optimization_information">Wichtige Optimierunsinfos</string>
+	<string name="we_improve_the_power_for_you">Energieverbrauch verbessert von %1$s auf %2$s
+	</string>
+	<string name="no_optimization_information">Keine Optimierungsinfos vorhanden</string>
+	<string name="no_app_information">Keine Infos zur proaktiven Verteidigung vorhanden</string>
+	<string name="you_can_uninstall_the_application">Wenn Apps von Drittanbietern einen bestimmten Energieverbrauch 
+		erreichen, sollten sie deinstalliert werden.
+	</string>
+	<string name="the_third_party_applications">App von Drittanbietern</string>
+	<string name="can_not_uninstall">Deinstallation nicht möglich.</string>
+	<string name="can_not_run_this_app">App-Einstellungen können nicht geändert werden.</string>
+	<string name="turn_off_idle">1. Hintergrunddaten aussschalten\n2. Automatische Synchronisation 
+		ausschalten\n3. GPS ausschalten\n4. WiFi ausschalten\n5. WiFi Hot Spot ausschalten\n6. Bluetooth ausschalten
+	</string>
+	<string name="no_suggestions">Keine Vorschläge</string>
+	<string name="version_update">Version Update</string>
+	<string name="sizestr">Größe:</string>
+	<string name="later">Später</string>
+	<string name="betide">Betide:</string>
+	<string name="auto_brightness">Auto Helligkeit</string>
+	<string name="usb">USB</string>
+	<string name="protecting_your_battery">Batterie wird geschützt ...</string>
+	<string name="dbusdaemon">Android Message Daemon</string>
+	<string name="bootanimation">Boot Animation</string>
+	<string name="floating_window_animation">Animation des schwebenden Fensters</string>
+	<string name="the_desktop_floating_window_animation">Animation des schwebenden Fensters auf dem Desktop</string>
+	<string name="slide_left">Gleiten nach Links</string>
+	<string name="slide_right">Gleiten nach Rechts</string>
+	<string name="slide_top">Gleitennach Oben</string>
+	<string name="fade_center">Verschwinden(mittig)</string>
+	<string name="none">Keine</string>
+	<string name="hidden">Versteckt</string>
+	<string name="protecting_your_battery_time">Schütze Batterie-Ressourcen:</string>
+	<string name="settings_options">Einstellungsmöglichkeiten</string>
+	<string name="brightness_title">
+		Bildschirmhelligkeit verringen.
+	</string>
+	<string name="brightness_descr">
+		Bildschrimherrligkeit auf den niedrigsten Wert setzen,
+		der noch angenehm erscheint:\n\n
+		1. Drücken Sie die Menütaste und dann auf 
+		Einstellungen, dann auf Anzeige und auf 
+		Helligkeit.\n
+		2. Drücken Sie auf die gewünschte Position auf 
+		Schieberegler.\n
+	</string>
+	<string name="test">Test</string>
+	<string name="enter_search_key">Suchbegriff eingeben</string>
+	<string name="a_key_improve">A Key Improve</string>
+	<string name="scanning">Untersuche ...</string>
+	<string name="remind">Erinnerung</string>
+	<string name="usage_type_cpu">CPU Total</string>
+	<string name="usage_type_cpu_foreground">CPU Vordergrund</string>
+	<string name="status_awake_time">Aktive Zeit</string>
+	<string name="get_battery_data_error">Get Battery Data Error</string>
+	<string name="scale">Maßstab</string>
+	<string name="always_top">Immer im Vordergrund</string>
+	<string name="floating_on_the_desktop">Schwebend auf dem Desktop</string>
+	<string name="detecting_power_consumption_app">Spüre energieverbrauchende Apps auf, bitte warten ...
+	</string>
+	<string name="real_time_protection_is_turned_on">Echtzeitschutz ist an</string>
+	<string name="real_time_protection_is_turned_off">Echtzeitschutz ist aus</string>
+	<string name="the_floatation_window_infomation">Info im schwebenden Fenster</string>
+	<string name="show_infomation_in_the_floatation_window">Zeige Infos im schwebenden Fenster</string>
+	<string name="internet_speed">Internet Geschwindigkeit</string>
+	<string name="battery_level">Batterie-Level</string>
+	<string name="quick_scan">Schneller Scan</string>
+	<string name="consumption_apps">Verbrauchende Apps</string>
+	<string name="used">Benutzt:</string>
+	<string name="invalid_optimization_after_restart">Leistungsoptimierung nach Reboot nicht möglich</string>
+	<string name="wifi_tips">Wifi Tipps</string>
+	<string name="wifi_tips_when_the_status_changes">WiFi Tipps nach Statusänderung</string>
+	<string name="change_brightness">Helligkeit ändern</string>
+	<string name="download">Download</string>
+	<string name="upload">Upload</string>
+	<string name="list_is_empty">Liste ist leer</string>
+	<string name="clear_customize">Lösche Anpassungen</string>
+	<string name="setting_customize">Setze Anpassungen</string>
+	<string name="customization_is_turned_on">Anpassungen sind aktiv</string>
+	<string name="charge_protection">Geschützte Zeit beim Laden:</string>
+	<string name="uncharge_protection">Geschützte Zeit beim Entladen:</string>
+	<string name="optimization_is_complete">Optimierungen sind vollständig.</string>
+	<string name="your_phone_is_good">Ihr Gerät ist gut.</string>
+	<string name="improve_battery_desc">Batterie von %1$s auf %2$s verbessert</string>
+	<string name="is_a_non_power_consumption_application">ist kein Leistungsfresser</string>
+	<string name="is_a_power_consumption_application">Leistungsfresser installiert!</string>
+	<string name="close_the_usb_debug">Das Deaktiveriereng des USB Debugging verringert die Aufwachzeiten des 
+		Systems</string>
+	<string name="please_enter_the_feedback_content">Bitte Feedback/Kommentar eingeben</string>
+	<string name="email">Email:</string>
+	<string name="qq">QQ:</string>
+	<string name="msg_feedback">Ihr Feedback/Kommentar wurde erfolgreich gesendet,
+		vielen Dank!
+	</string>
+	<string name="failure_feedback_msg">Übertragungsfehler! Netzwerkverbindung
+		überprüfen und noch einmal versuchen.
+	</string>
+	<string name="install_time">Installationszeit:</string>
+	<string name="uninstalled">Deinstalliert</string>
+	<string name="application_has_been_uninstalled">Diese Anwendung wurde deinstalliert.</string>
+	<string name="feedbacking">Sende Feedback/Kommentar ...</string>
+	<string name="email_format_is_not_correct">Ihre Email-Adresse ist nicht korrekt.</string>
+	<string name="connection_timed_out">Verbindungs-Timeout</string>
+	<string name="one_battery_desc">One Power Guard ist ein einzigartiges Werkzeug zur
+		Steigerung der Batterieleistung,
+		designed um bei gerooteten Android-Geräten die Batterieladung zu erhalten und die aktive Zeit zur erhöhen. 
+		One Power Guard schützt ihr Gerät auch vor
+		defekten Anwendungen, die eine Überhitzung (Verringerung der Lebenszeit
+		der Batterie) oder schnelle Entladung oder das Verhindern des Standby-Modus 
+		zur Folge haben können. One Power Guard kann auch unnötige Leistungsfresser wie WiFi oder  Mobile Daten 
+		deaktiveren.
+		Durch die Wahl zwischen 6 verschiedenen Modi haben Sie die Möglichkeit, die Sparfunktionen
+		auf ihre Bedürfnisse anzupassen.
+		Man muss keine zusätzlichen oder größere Batterien kaufen, 
+		One Power Guard alleine reicht.
+	</string>
+	<string name="one_battery_features">Funktionen\n 1. Verlängert die Standby-Zeit und die 
+		Batterielebenszeit, optimiert die Ladeparameter\n
+		2. Optimiert den System Kernel und
+		die Benutzung der CPU um die Geräteperformanz zu verbessern.\n
+		3. 6 anpassbare Energiesparmodi, die für 
+		verschiedene Szenarien passen.\n
+		4. Proaktive Schutz vor energiefressenden
+		Anwendungen und sicheres Beenden von energieverbrauchenden 
+		Programmen.\n
+		5. Schnelles De- und Aktivieren der Einstellungen für 100%ige Systemanpassung.\n
+		6. Intelligentes Ein- und Ausschalten von WiFi und Mobilen Daten um Batterielaufzeit zu sparen.\n
+		7. Professionelle Tipps zur Leistungsoptimierung.\n
+
+	</string>
+	<string name="ai_mode_desc">
+		AI Modus: Man sollte es auf Auf Verlangen setzen.\nEs nutzt die 
+		<b>Auf Verlangen</b>
+		-Strategie. Wenn die Systembelastung steigt, wird die CPU sofort auf die maximale  Frequenz gesetzt.
+		Wenn die Systembelastung sinkt, sinkt auch die CPU Frequenz langsam auf ihr Minimum.\n
+		Es wird geraten, den
+		<b>CFQ</b>
+		IO scheduler zu verwenden. Ohne ihn wird die Standardeinstellungen benutzt.
+	</string>
+	<string name="powersave_mode_desc">Energiesparmodus: Diesen kann man einstellen, um Energie zu sparen.\n Er nutzt die
+		<b>Energiespar</b>
+		-Strategie. Er hält die CPU Frequenz immer auf Minimum, dies ist am wenigsten energiehungrig, 
+		aber auch am langsamsten reagierend. Man kann die niedrige Frequenz einstellen, bei Systembelastung 
+		wird diese nicht erhöht.\n\n
+		Es wird geraten, den
+		<b>CFQ</b>
+		IO scheduler zu verwenden. Ohne ihn wird die Standardeinstellungen benutzt.
+	</string>
+	<string name="game_mode_desc">
+		Spiel/Video Modus: Diesen kann man nutzen, um Spiele zu spielen oder Videos anzuschauen. Damit hat man die beste
+		Performanz (flüssige Videowiedergabe).\nEs benutzt die
+		<b>Leistungs</b>
+		-Strategie. Diese hält die CPU auf maximaler Frequenz. Dieser Modus braucht am meisten Leistung, 
+		läuft aber auch am flüssigsten.
+		Man kann die CPU auch übertakten, wenn der Kernel dieses unterstützt.\n\n 
+		Es wird geraten, den
+		<b>CFQ</b>
+		IO scheduler zu verwenden. Ohne ihn wird die Standardeinstellungen benutzt.
+	</string>
+	<string name="daily_mode_desc">
+		Täglicher Modus: Dieser Modus stellt eine vernünftige Alternative 
+		zwischen Verbrauch und Leistung dar.\nEr benutzt die
+		<b>Auf Verlangen</b>
+		-Strategie. Wenn die Systembelastung steigt, wird die CPU sofort auf die maximale  Frequenz gesetzt.
+		Wenn die Systembelastung sinkt, sinkt auch die CPU Frequenz langsam auf ihr Minimum.\n
+		Es wird geraten, den
+		<b>CFQ</b>
+		IO scheduler zu verwenden. Ohne ihn wird die Standardeinstellungen benutzt.
+	</string>
+	<string name="standby_mode_desc">
+		Standby Modus: Dieser Modus steht für maximale Einsparung.\nEr benutzt die
+		<b>Energiespar</b>
+		-Strategie. Er hält die CPU Frequenz immer auf Minimum, dies ist am wenigsten energiehungrig, 
+		aber auch am langsamsten reagierend. Man kann die niedrige Frequenz einstellen, bei Systembelastung 
+		wird diese nicht erhöht.\n\n
+		Es wird geraten, den
+		<b>CFQ</b>
+		IO scheduler zu verwenden. Ohne ihn wird die Standardeinstellungen benutzt.
+	</string>
+	<string name="custom_mode_desc">Angepasster Modus: Wählen Sie die Einstellugen selbst.
+	</string>
+	<string name="mode_choose">Wie ändere ich den Modus?\n 1.
+		Öffne das OPtimierungsinterface\n
+		2. Wähle den Modus.\n
+	</string>
+	<string name="failure">Gescheitert</string>
+	<string name="succes">Erfolgreich</string>
+	<string name="canceled">Abgebrochen</string>
+	<string name="could_not_initialize_the_paypal">Konnte Paypal nicht initialisieren.</string>
+	<string name="unable_to_connect_to_the_network">Keine Verbindung zum Netzwerk.</string>
+	<string name="defense">Verteidigung</string>
+	<string name="clean">Löschen</string>
+	<string name="powersave_mode_payment">Energisparmodus Bezahlung</string>
+	<string name="game_mode_payment">Game/Video Modus Bezahlung</string>
+	<string name="daily_mode_payment">Täglicher Modus Bezahlung</string>
+	<string name="standby_mode_payment">Standby Modus Bezahlung</string>
+	<string name="custom_mode_payment">Angepasster Modus Bezahlung</string>
+	<string name="payment_failure">Bezahlungsfehler</string>
+	<string name="payment_succes">Bezahlung erfolgreich</string>
+	<string name="canceled_payment">Bezahlung abgebrochen</string>
+	<string name="bluetoothd">Android Bluetooth Daemon</string>
+	<string name="special_offers">Spezielle Angebote</string>
+	<string name="special_offers_desc">Upgrade für fortgeschrittene Benutzer, mit unterschiedlichen
+		Energiespar-Modi, bezahlen Sie $%1$s für alle Modi</string>
+	<string name="time_left">Übrige Zeit:</string>
+	<string name="special_offers_show">Glückwunsch, Sie sind ein fortgeschrittener Benutzer mit allen
+		Energiesparmodi.
+	</string>
+	<string name="upgrade_to_the_custom_user">Upgrade zum angpassten Benutzer, Sie können folgende Dinge anpassen:
+		CPU Frequenz, CPU Verwaltung,IO scheduler, bezahlen Sie $%1$s</string>
+	<string name="upgrade_to_the_powersaving_user">Upgrade zum Energiespar-Benutzer, Sie können die Balance zwischen
+		Bedienung und Energieverbrauch finden, bezahlen Sie $%1$s
+	</string>
+	<string name="upgrade_to_the_video_game_user">Upgrade zum Video und Spiele Benutzer, dies ermöglicht Ihnen
+		flüssige Bedienung und Videowiedergabe, bezahlen Sie $%1$s
+	</string>
+	<string name="upgrade_to_the_business_user">Upgrade zum Business-Benutzer, mit dem die Sprechzeit sich verlängert, 
+		bezahlen Sie $%1$s</string>
+	<string name="upgrade_to_the_standby_user">Upgrade zum Standby-Benutzer, wenn Sie den Standby-Modus
+		mögen, bezahlen Sie $%1$s</string>
+	<string name="wifi_disconnect_for_power_saving">Wifi zum Energiesparen getrennt </string>
+	<string name="min">Min</string>
+	<string name="max">Max</string>
+	<string name="cpu_frequency">CPU Frequenz</string>
+	<string name="cpu_governor">CPU Verwaltung</string>
+	<string name="io_scheduler">IO Scheduler</string>
+	<string name="initialization_error">Initialisierungsfehler</string>
+	<string name="proactive_defense_is_turned_on">Proaktive Verteidigung ist an</string>
+	<string name="power_saving_tips">Energiespartipps</string>
+	<string name="no_sdcard_cannot_save_the_certificate">Keine SD-Karte, Zertifikat konnte nicht gespeichert werden.</string>
+	<string name="installed_power_consumption_apps">Energieverbrauchende Apps installiert</string>
+	<string name="device_information">Geräteinforamtionen</string>
+	<string name="proactive_defense">Proaktive Verteidigung</string>
+	<string name="weibo">#One Power Guard# ist eine App zum Schutz der Batterie, eine
+		wunderbare App für den Werkzeugkasten jedes gerooteten Geräts. Download bei Google Play:
+		http://goo.gl/8rdal
+	</string>
+	<string name="wakeup_apps">Aufwachprozess</string>
+	<string name="audio_1">Diese Optionen deaktiveren: 1."Hörbare Tastentöne" 2."Ton bei Auswahl"
+		3."Bildschirmsperr-Sounds"
+	</string>
+	<string name="now_experience">Now Experience</string>
+	<string name="boot_power_saving_protection">Reboot Schutz</string>
+	<string name="when_restart_your_phone_automatic_power_saving_protection">Nach dem Reboot werden die Energiesparfunktionen
+		wieder eingeschaltet.
+	</string>
+	<string name="why_do_you_need_one_power_guard_for_root_users">
+		Testens Sie One Power Guard selbst!\n
+		\n
+		1. Laden Sie ihr Gerät voll auf, bevor Sie zu Bett gehen.
+		Überprüfen Sie morgens den Batteriestatus und merken Sie sich
+		wie hoch er ist.
+		2. Laden Sie nach dem installieren von One Power Guard wieder bevor Sie zu Bett gehen die Batterie voll auf.
+		Überprüfen Sie am Morgen erneut den Batteriestatus, 
+		Sie werden vom Unterschied beeindruck sein.!\n
+	</string>
+	<string name="disable_wifi_title">WiFi ausschalten, wenn es nicht benutzt wird.</string>
+	<string name="disable_wifi_desc">Ausschalten von Wireless LAN (WiFi) spart merklich Strom:\n
+
+		1. Öffnen Sie über die Menütaste die Einstellungen\n
+		2. Klicken Sie auf "Drahtlos und Netwerke\n
+		3. Hier finden Sie die Einstellungen, um das WiFi zu deaktiverien\n
+	</string>
+	<string name="disable_gps_title">Deakivieren Sie die GPS Dienste</string>
+	<string name="disable_the_gps_desc">1.Öffnen Sie mit dern Menütaste die Einstellungen, dann auf "Standort und Sicherheit".\n
+		2. Deaktivieren Sie auf diesem Bildschirm "GPS-Satelliten verwenden".\n
+	</string>
+	<string name="disable_bluetooth_title">Deaktivieren Sie Bluetooth, wenn es nicht gebraucht wird.</string>
+	<string name="disable_bluetooth_desc">Das Deaktivieren von Bluetooth wird, wenn es nicht gebraucht wird, 
+		den Energieverbrauch merklich verringen:\n
+	</string>
+	<string name="set_timeout_title">Setzen des Bildschirm-Timeouts</string>
+	<string name="set_timeout_desc">Setzen Sie die Zeit fest, anch der der Bildschirm deakiviert wird.
+		Je niedriger die Einstellung, desto weniger Energie wird verbraucht:\n\n
+		1. Öffnen Sie über die Menütaste die Einstellungen.\n
+		2. Klicken Sie auf Anzeige".\n
+		3. Setzen Sie den Bildschirm-Timeout.\n
+	</string>
+	<string name="disable_sync_title">Automatische Synchronisation und Mobile Daten deaktiveren</string>
+	<string name="disable_sync_desc">1. Öffnen Sie über die Menütaste die Einstellungen.\n
+		2. Wählen Sie "Konten und Synchronisierung"\n
+		2. Deaktivieren Sie die Hintergrunddaten und das automatische Synchronisieren.\n
+	</string>
+	<string name="wallpaper_title">Benutzen Sie keine Live Wallpapers</string>
+	<string name="wallpaper_desc">Eines der interessantesten Features von Android ist die 
+		Unterstütung von Live Wallpapers. Diese schauen gut aus, verbrauchen aber viel Energie. benutzen Sie statt dessen normale Wallpapers.
+	</string>
+	<string name="wallpaper">Wallpaper</string>
+	<string name="a_desr">1A=1000mA=1000000μA</string>
+	<string name="deep_sleep">Deep Sleep</string>
+	<string name="cpu_stats">CPU Statistiken</string>
+	<string name="unused_cpu_frequency">Nicht benutzte CPU Frequenzen</string>
+	<string name="total_uptime">Gesamte aktive Zeit</string>
+	<string name="cpu_frequency_ratio">CPU Frequenzverhältnis</string>
+	<string name="wakeups">Aufwachvorgänge: </string>
+	<string name="launches">Starts: </string>
+	<string name="using_all_the_CPU_frequency">Alle CPU Frequenzen wurden genutzt</string>
+	<string name="story">First of all, what are the common complaints
+		with
+		android smartphone devices? Issues such as: system halted; application
+		crashes; slow booting;
+		and, battery life.\n\n
+
+		A year ago, I purchased my
+		first android phone and
+		installed CM ROM. Within months, I became very
+		annoyed that my battery
+		did not last the entire day. I could go to bed,
+		with a full battery
+		charge, and awake in the morning to find that the
+		battery charge had
+		dropped significantly overnight. I found this
+		situation to be
+		unacceptable! To solve this, I downloaded power-saving
+		applications.
+		Every day I would install a different power saving
+		application, charge
+		the battery to full power before bed, and then
+		check the battery in
+		the morning. After a month of testing power saving
+		applications, I
+		didn\'t find a satisfactory solution and some of the
+		so-called power
+		saving apps even made the battery drain faster. So, I
+		thought I would
+		create an app for myself, that could tweak system
+		parameters and help
+		save my battery. Nine months ago, I started writing
+		a power tweaking
+		application for myself. I studied the intracies of the
+		android power
+		management mechanism and within a few months I had the
+		basis for an
+		application that could optimize my power management.
+		Everyday, I
+		tweaked the power optimization parameters and tested each
+		night. One
+		morning, I awoke and was thrilled to discover that the
+		battery charge
+		had only decreased by a small amount. So, I turned my
+		personal power
+		saving tweaker into a user-friendly power saving
+		application that
+		anyone could use. I am sharing my application,
+		One Power Guard with
+		you.\n\n
+
+		If you would like to try One Power
+		Guard,
+		Download from
+		onexuan.com\n\n
+		To save power, One
+		power Guard do some
+		optimization:\n
+		1. Extend stand-by time and battery
+		life, optimize
+		charging
+		parameters\n
+		2. Optimize system parameter and
+		improve device
+		performance\n
+		3. 6 customized power-saving modes to suit
+		different
+		scenarios\n
+		4. Proactively guard from power-killer apps and
+		safely kill
+		useless
+		power-consuming programs\n
+		5. Fast on-off settings
+		for 100%
+		system customization\n
+		6. Professional advice on power
+		protection\n
+
+		Why
+		do you need One Power Guard?\n
+		Standby for one night,
+		get up in the
+		morning to take a look at your phone,
+		you will be very
+		surprised.\n
+		Test
+		as follows:\n
+		1. You can standby for one night,
+		compared to other
+		power-saving
+		applications.\n
+
+		2. You can standby for one
+		night, you do not
+		install One Power Guard.\n
+
+		3. To compare the
+		optimization results, and
+		need to restart the phone so
+		that a clean
+		environment.\n
+	</string>
+	<string name="standby_problems">Probleme mit dem Batterie Standby?</string>
+	<string name="contact_us">Bitte kontaktieren Sie Paypal oder senden Sie eine Mail an
+		contact@onexuan.com
+	</string>
+	<string name="warn">Warnung</string>
+	<string name="warn_info">Diese Veränderungen optimieren Kernel, CPU,
+		Netzwerk, SD Kartenzugriffe und Speicher. Nach einem Neustart wird
+		alles wieder im Ausgangszustand sein. Bitte bestätigen Sie, 
+		dass die Optimierungen durchgeführt werden sollen.
+	</string>
+	<string name="remind_warn">Erinnere mich nicht mehr</string>
+	<string name="this_optimization_will_run_the_AI_mode">Diese Optimierung wird den AI Modus starten.</string>
+	<string name="support_app">Wenn Sie diese App mögen, unterstützen Sie unsere Arbeit, 
+		Sie werden nicht mehr weiter daran erinnert werden und können alle Optimierungen verwenden.
+	</string>
+	<string name="questions_in_use">Falls Sie Probleme bei der Benutzung haben, besuchen Sie
+		&lt;a
+		href=\"http://forum.xda-developers.com/showthread.php?t=1947559&lt;\"&gt;http://forum.xda-developers.com/showthread.php?t=1947559&lt;\\a&gt;,
+		Sie dürfen sich dort auch gerne melden, um positives Feedback zu geben.
+	</string>
+	<string name="try_it">Versuchen Sie es!</string>
+	<string name="no_support_to_adjust_the_cpu_frequency">Kein Support für das Angleichen der CPU Frequenz</string>
+	<string name="no_support_to_adjust_the_cpu_policy">Kein Support für das Angleichen der CPU-Strategie</string>
+	<string name="no_support_to_adjust_the_io_scheduler">Kein Support, um den IO scheduler anzupassen</string>
+	<string name="real_time_protection">Echtzeitschutz</string>
+	<string name="your_phone_does_not_support_this_setting">Ihr Telefon unterstützt diese Einstellung nicht.</string>
+	<string name="what_is_a_safe_clean">Was ist sicheres Löschen?</string>
+	<string name="safe_clean_info">Android hat ein Prozessmanagement für Apps. Wenn eine
+		App durch ein Programm eines Drittanbieters geschlossen wird, wird das System
+		überprüfen, ob der Prozess wieder gestartet wird oder nicht. Wird der Prozess wieder gestartet,
+		würde der Schliessvorgang erneut ausgeführt und damit würde eine unendliche Schleife von Schließen und Neustart aufgebaut, 
+		die einen erhöhtem Energieverbrauch zur Folge hat. Überlegen Sie, ob sie solche Anwendungen von Drittanbeitern nicht deinstallieren.
+	</string>
+	<string name="in_such_cases">Führen Sie bitte in diesen Fällen ein Upgrade zur neuesten Version von der offiziellen Website durch. 
+		http://www.onexuan.com
+	</string>
+	<string name="unable_to_open_sharing">Offenes Teilen nicht möglich.</string>
+	<string name="how_to_restore_the_original">Wie stellt man die urpsrünglichen Parameter wieder her?
+	</string>
+	<string name="restore_info">Alle Modi optimieren Kernel, CPU,
+		Netzwerk, SD Kartenzugriffe und Speicher. Falls Sie dies nicht wollen, deinstallieren
+		Sie einfach die App oder deaktivieren Sie den "Boot Schutz" in den Einstellungen. Starten
+		Sie ihr Telefon danach erneut und alles wird wieder so sein wie vorher.
+	</string>
+	<string name="why_does_it_run_in_the_background">Warum läuft es im Hintergrund?</string>
+	<string name="background_info">Wir haben eine\"Sicheres Löschen\"-Technologie, in erster Linie, um ihre
+		Batterie zu schützen. Diese muss im Hintergrund laufen, um regelmäßig ausgeführt werden zu können.
+	</string>
+	<string name="reviews">Kritiken</string>
+	<string name="others">Andere</string>
+	<string name="one_percent_hack">Ein-Prozent-Hack</string>
+	<string name="ten_percent_info">Benutzen Sie diesen für Geräte, die nur Vielfache von 10% anzeigen</string>
+	<string name="poweroff">Ausschalten</string>
+	<string name="poweroff_tips">Tipps zum Ausschalten</string>
+	<string name="auto_poweroff_device_info">Automatisches Ausschalten bei einem bestimmten Batterieladestand</string>
+	<string name="user_reviews_from_google_play">Update oder Kritik auf Google Play</string>
+	<string name="google_play">Google Play</string>
+	<string name="official_website">Offizielle Website</string>
+	<string name="update_from_official_website">Update von der offiziellen Website</string>
+	<string name="install_tips">Stellen Sie sicher, dass Sie Root-Zugriff haben und dass One Power
+		Guard diesen nutzen kann. Wenn Sie von Superuser gefragt werden, stellen Sie sicher, dass die Checkbox aktiv ist und drücken Sie Zulassen.\n
+		\n
+		Diese Anwendung verändert Hardwareeinstellungen!
+		Benutzen Sie sie auf eigene Gefahr.\n\n
+		Da Android ziemlich vielschichtig ist, verschiedene Geräte verschieden reagieren und diese Anwendung in der Entwicklung ist, kann es sein,
+		dass Sie Fehler finden.
+		Sollten Sie damit Probleme haben, melden Sie diese bitte unter
+		http://forum.xda-developers.com/showthread.php?t=1947559
+		\n\n
+		Beenden Sie 
+		One Power Guard NICHT mit dem Task Manager\n\n
+
+		Einige Geräte gehen bei niedrigen Geschwindigkeiten in den Standby, dies kann zu Abstürzen führen.
+		Beispiel: Galaxy S \n
+	</string>
+	<string name="xda_forum_discuss">XDA Forum Discussion</string>
+	<string name="discussion_and_feedback">Discussion and Feedback</string>
+	<string name="continuestr">Continue</string>
+	<string name="checking_cpu">Überprüfe das System, ob automatische Anpassung der CPU möglich ist ...
+	</string>
+	<string name="automatic_adjustment">Ihr Gerät hat die Möglichkeit, die CPU automatisch anzupassen. Es ist nicht nötig, die Frequenz anzupassen.
+	</string>
+	<string name="notification_style">Benachrichtigungsstil</string>
+	<string name="show_battery_notification_style">Stil für Batteriebenachrichtigungen</string>
+	<string name="defaultstr">Standard</string>
+	<string name="white">Weiß</string>
+	<string name="green">Grün</string>
+	<string name="orange">Orange</string>
+	<string name="give_up">Gib auf</string>
+	<string name="onepercentinfo">
+		Wenn Ihr Gerät die Änderung des Batteriestands nur in 10% Einheiten zeigt (
+		<b>die meisten
+			Motorola-Geräte arbeiten auf diese Weise
+		</b>
+		), dann sollten Sie den\"1-Prozent-Hack\" auf
+		\"Andere
+		Einstellungen\" einschalten. Manche Motorola-Geräte unterstützen dies nicht.
+	</string>
+	<string name="your_phone_does_not_support">Ihr Gerät unterstütz das nicht.</string>
+	<string name="why_drain">Warum entlädt sich die Batterie, während das Gerät am Computer angeschlossen ist?
+	</string>
+	<string name="drain_power_info">USB Laden weckt das Gerät auf, machen Sie ein Update ihres
+		Android USB Treibers um dieses Problem zu lösen oder das USB Device ist zu alt.
+	</string>
+	<string name="unconfigured">NIcht eingestellt!</string>
+	<string name="configured">Eingestellt!</string>
+	<string name="only_supports_root_user">Unterstütz nur gerootete Geräte</string>
+	<string name="optimize_vm">Optimiere VM(Virtual Machine)</string>
+	<string name="optimize_deep_sleep">Optimiere Deep Sleep</string>
+	<string name="optimize_network">Optimiere Netzwerk(TCP\\IPV4\\WR Memory)</string>
+	<string name="optimize_wireless">Optimiere Wireless(WiFi\\UMTS\\GPRS\\EDGE)</string>
+	<string name="optimize_ril">Optimiere RIL</string>
+	<string name="optimize_sdcard">Optimiere SDCard(Read\\Write)</string>
+	<string name="optimize_kernel">OptimiereKernel</string>
+	<string name="saved_successfully">Erfolgreich gespeichert.</string>
+	<string name="special_thanks">Special thanks to luis diaz\'s(herone) Spanish
+		translation, Dave\'s (DaGunn) English polishing up, Georg Aubele\'s (Der-Knuffi) German translation, they are from the
+		XDA forum, thanks again for your hard work.
+	</string>
+	<string name="thanks">Danke</string>
+	<string name="free_up_memory">Gebe Speicherplatz frei</string>
+	<string name="return_to_the_desktop_free_up_memory">Zurückkehren zum Desktop, gebe Speicherplatz frei</string>
+	<string name="time_in_state_file_missing">/sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state fehlt, Vielleicht kann ein Neustart das Problem lösen.</string>
+	<string name="show_fahrenheit_temperature">Zeige Fahrenheit Temperatur</string>
+	<string name="fahrenheit_temperature_units">℉</string>
+	<string name="set_on_boot">Set On Boot</string>
+	<string name="memory">Speicher</string>
+	<string name="poweroff_settings">Poweroff Einstellungen</string>
+	<string name="poweroff_log">Poweroff Log</string>
+	<string name="why_the_device_is_slow_after_setting">Warum ist das Gerät nach der Einstellung langsam?</string>
+	<string name="my_story">Ich möchte über meine Geschichte, eine Nacht, ein Benutzer für mich sah reden, sagte er, dass seine Frage zur Installation der Version 2.1. sagte er sein Gerät in den Standby-Modus zurück. Ich sagte, dass wir zusammen arbeiten, um dieses Problem zu lösen. Nach der Arbeit ging ich zurück zu meinem Wohnheim. Ich fing an, ein Test-Interface für ihn zu schreiben. 1,5 Stunden später begannen wir testen. Er fing an, meine zehn Schritten zu testen. Schließlich rannte jeder Schritt gut. Aber das Problem noch nicht gefunden worden. Ich ließ ihn erneut versuchen AI-Modus. sein Gerät zurück. weil sein Gerät nicht unterstützt, um die CPU einstellen. Also mein Urteil ist IO Zeitplan Problem, er die "CFQ" eingestellt ist, lasse ich ihn versuchen, IO Zeitplan zu ändern. (Seine Rom Nur unterstützt CFQ und Noop). Er wechselte zu "Noop", wurde Alles perfekt. Schließlich das Problem beheben.
+	\n\nFinal Fazit: Versuchen Sie einige Einstellungen ändern, bis es das beste ist.</string>
+	<string name="sort_by_total_power_consumption">Sortieren nach Total Power Consumption</string>
+	<string name="sort_by_power_comparison_value">Sortieren nach Leistung Vergleichswert</string>
+	<string name="sort">Art</string>
+	<string name="one_xuan">I\'m in your droid, unique apps from here\n One is all cool(xuan).</string>
+	<string name="proactive_defense_tips">Proactive Defense Tipps</string>
+	<string name="turn_off_proactive_defense_tips">Schalten Sie Proactive Defense Tipps</string>
+	<string name="unable_to_open_the_mobile_data_interface">Unfähig, die mobile Daten-Schnittstelle zu öffnen, ist es nicht verfügbar</string>
+	<string name="unable_to_open_the_interface">Unfähig, die Schnittstelle zu öffnen, ist es nicht verfügbar</string>
+	<string name="the_amount_of_free_ram">Die Menge des freien RAM</string>
+</resources>

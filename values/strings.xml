@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">One Power Guard</string>
+	<string name="optimize">Optimize</string>
+	<string name="application">App</string>
+	<string name="switchstr">Switch</string>
+	<string name="settings">Settings</string>
+	<string name="status_label">Status: </string>
+	<string name="advanced">Advanced</string>
+	<string name="battery_status_label">Status:</string>
+	<string name="battery_power_label">Plug:</string>
+
+	<string name="battery_level_label">Level:</string>
+	<string name="battery_health_label">Health:</string>
+	<string name="battery_technology_label">Technology:</string>
+	<string name="battery_voltage_label">Voltage:</string>
+	<string name="battery_voltage_units">mV</string>
+	<string name="battery_temperature_label">Temperature:</string>
+	<string name="battery_temperature_units">\u00B0 C</string>
+	<string name="battery_status_charging">Charging</string>
+	<string name="battery_status_charging_ac">(AC)</string>
+	<string name="battery_status_charging_usb">(USB)</string>
+	<string name="battery_status_discharging">Discharging</string>
+	<string name="battery_status_not_charging">Not Charging</string>
+	<string name="battery_status_full">Full</string>
+	<string name="battery_status_unknown">Unknown</string>
+	<string name="battery_power_unplugged">Unplugged</string>
+	<string name="battery_power_ac">AC</string>
+	<string name="battery_power_usb">USB</string>
+	<string name="battery_power_ac_usb">AC+USB</string>
+	<string name="battery_power_unknown">Unknown</string>
+	<string name="battery_health_unknown">Unknown</string>
+	<string name="battery_health_good">Good</string>
+	<string name="battery_health_overheat">Battery Overheating!</string>
+	<string name="battery_health_dead">Dead Battery!</string>
+	<string name="battery_health_over_voltage">Over Voltage!</string>
+	<string name="battery_health_unspecified_failure">Unknown Error!</string>
+	<string name="turn_on">Turn ON</string>
+	<string name="game">Game:</string>
+	<string name="standby">Standby:</string>
+	<string name="internet">Internet:</string>
+	<string name="read_book">Read Book:</string>
+	<string name="cpu_label">CPU:</string>
+	<string name="battery_stats_on_battery">
+		%s
+		on battery
+	</string>
+	<!-- Battery usage duration -->
+	<string name="battery_stats_duration">%s Since Unplugged
+	</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats charging state graph -->
+	<string name="battery_stats_charging_label">Charging</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats screen on state graph -->
+	<string name="battery_stats_screen_on_label">Screen ON</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats gps on state graph -->
+	<string name="battery_stats_gps_on_label">GPS ON</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats Wi-Fi running state graph -->
+	<string name="battery_stats_wifi_running_label">Wi-Fi</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats wake lock state graph -->
+	<string name="battery_stats_wake_lock_label">Awake</string>
+	<!-- [CHAR LIMIT=25] Label for battery stats phone signal strength graph -->
+	<string name="battery_stats_phone_signal_label">Phone Signal</string>
+	<string name="turn_off">Turn OFF</string>
+	<string name="battery_stats_last_duration">While Last Unplugged for %s</string>
+	<string name="root_fails">Need Root Access!</string>
+	<!-- Label for kernel threads -->
+	<string name="process_kernel_label">Android OS</string>
+	<!-- Label for mediaserver process -->
+	<string name="process_mediaserver_label">Media Server</string>
+	<!-- Label for power consumed by the screen -->
+	<string name="power_screen">Display</string>
+	<!-- Label for power consumed by Wi-Fi -->
+	<string name="power_wifi">WiFi</string>
+	<!-- Label for power consumed by Bluetooth -->
+	<string name="power_bluetooth">Bluetooth</string>
+	<!-- Label for power consumed by Cell idle -->
+	<string name="power_cell">Cell Standby</string>
+	<!-- Label for power consumed by Calling -->
+	<string name="power_phone">Voice Calls</string>
+	<!-- Label for power consumed when Idle -->
+	<string name="power_idle">Phone Idle</string>
+	<string name="about">About</string>
+	<string name="all_rights">All Rights Reserved</string>
+	<string name="copy_right">Copyright © 2012 Onexuan.com</string>
+	<string name="check_update">Check for Updates</string>
+	<string name="share">Share</string>
+	<string name="feedback">Feedback</string>
+	<string name="loading">Loading...</string>
+	<string name="common">Common</string>
+	<string name="temperature">Temperature</string>
+	<string name="voltage">Voltage</string>
+	<string name="cpu">CPU</string>
+	<string name="help">Help</string>
+	<string name="update">Update</string>
+	<string name="version">Version</string>
+	<string name="ai_battery">AI Battery:</string>
+	<string name="battery_mode">Battery Mode:</string>
+	<string name="on">ON</string>
+	<string name="off">OFF</string>
+	<string name="cpu_load">CPU Load</string>
+	<string name="minute">Minute</string>
+	<string name="minute1">1 Minute</string>
+	<string name="minute5">5 Minutes</string>
+	<string name="minute15">15 Minutes</string>
+	<string name="cpu_utilization">CPU Utilization:</string>
+	<string name="normal">Normal</string>
+	<string name="percentuser">65% - 70%</string>
+	<string name="percentsystem">30% - 35%</string>
+	<string name="percentidle">0% - 5%</string>
+	<string name="bluetooth_active">Bluetooth Active:</string>
+	<string name="bluetooth_on">Bluetooth ON:</string>
+	<string name="wifi_active">WiFi Active:</string>
+	<string name="wifi_on">WiFi ON:</string>
+	<string name="radio_active">Radio Active:</string>
+	<string name="wifi_scan">WiFi Scan:</string>
+	<string name="radio_scan">Radio Scan:</string>
+	<string name="screen_on">Screen ON:</string>
+	<string name="video">Video:</string>
+	<string name="audio">Audio:</string>
+	<string name="gps_on">GPS ON:</string>
+	<string name="cpu_active">CPU Active:</string>
+	<string name="cpu_awake">CPU Awake:</string>
+	<string name="cpu_idle">CPU Idle:</string>
+	<string name="radio_on">Radio ON:</string>
+	<string name="available">Available:</string>
+	<string name="total">Total:</string>
+	<string name="mode">Mode</string>
+	<string name="mode_label">Mode:</string>
+	<string name="history">History</string>
+	<string name="highest">Highest:</string>
+	<string name="lowest">Lowest:</string>
+	<string name="call_time">Call Time</string>
+	<string name="book_time">Book Time</string>
+	<string name="game_time">Game Time</string>
+	<string name="music_time">Music Time</string>
+	<string name="network_time">Network Time</string>
+	<string name="video_time">Video Time</string>
+	<string name="standby_time">Standby Time</string>
+	<string name="camera_time">Camera Time</string>
+	<string name="wifi_time">WiFi Time</string>
+	<string name="phone_type_label">Type:</string>
+	<string name="wipe_battery_status">Wipe Battery Stats</string>
+	<string name="wipe_dalvik_cache">Wipe Dalvik Cache</string>
+	<string name="quick_mode">Quick Mode</string>
+	<string name="wifi">WiFi</string>
+	<string name="gps">GPS</string>
+	<string name="wireless">2G/3G/4G</string>
+	<string name="auto_sync">Auto Sync</string>
+	<string name="bluetooth">Bluetooth</string>
+	<string name="flashlight">Flashlight</string>
+	<string name="airplane">Airplane</string>
+	<string name="mobile_data">Mobile Data</string>
+	<string name="ring_mode">Ringer</string>
+	<string name="brightness">Brightness</string>
+	<string name="mode_settings">Mode Settings</string>
+	<string name="customize_settings">Customize Settings</string>
+	<string name="quick_settings">Quick Settings</string>
+	<string name="wipe">Wipe</string>
+	<string name="log">Log</string>
+	<string name="precent0">0%</string>
+	<string name="policy_label">Optimization Policy:</string>
+	<string name="bluetooth_time">Bluetooth Time</string>
+	<string name="cell_time">3G/4G Time</string>
+	<string name="running_service">Running Service</string>
+	<string name="not_running">Not Running</string>
+	<string name="running">Running</string>
+	<string name="menu_stats_total">Usage Totals</string>
+	<string name="menu_stats_unplugged">%s Since Unplugged</string>
+	<string name="refresh">Refresh</string>
+	<string name="top_power_applications">Top Power Apps</string>
+	<string name="custom_mode">Custom Mode</string>
+	<string name="game_video_mode">Game/Video Mode</string>
+	<string name="daily_mode">Daily Mode</string>
+	<string name="standby_mode">Standby Mode</string>
+	<string name="ai_mode">AI Mode</string>
+	<string name="powersave_mode">Powersave Mode</string>
+	<string name="system">System</string>
+	<string name="ok">OK</string>
+	<string name="cancel">CANCEL</string>
+	<string name="make_sure_to_wipe_battery_status">Make Sure To Wipe Battery Stats</string>
+	<string name="make_sure_to_wipe_dalvik_cache">Make Sure To Wipe Dalvik Cache</string>
+	<string name="volume">Volume Control</string>
+	<string name="wifi_hotspot">WiFi Hotspot</string>
+	<string name="hidden_settings">Hidden Settings</string>
+	<string name="visible_settings">Visible Settings</string>
+	<string name="status_unknown">Status Unknown</string>
+	<string name="optimizing_filesystem">Optimizing System...</string>
+	<string name="optimizing_io">Optimizing I/O...</string>
+	<string name="optimizing_vm">Optimizing VM...</string>
+	<string name="init">Initializing...</string>
+	<string name="zero">0</string>
+	<string name="status">Status</string>
+	<string name="ram_label">RAM:</string>
+	<string name="safe_clean">Safe Clean</string>
+	<string name="total_power">Total Power</string>
+	<string name="since_charged">Since Charged</string>
+	<string name="get_battery_list_error">Get Battery List Error</string>
+	<string name="powersave_settings">Powersave Settings</string>
+	<string name="customize">Customize</string>
+	<string name="mobile_radio">Mobile Radio</string>
+	<string name="auto_rotate">Auto Rotate</string>
+	<string name="master_volume">Master Volume</string>
+	<string name="the_current_mode">Current Mode:</string>
+	<string name="compare">Compare:</string>
+	<string name="zerouah">0(uah)</string>
+	<string name="the_average_power_consumption">Average Power Consumption</string>
+	<string name="volume_descr">Tap to Control Volume</string>
+	<string name="volume_ringer">Ringer Volume</string>
+	<string name="volume_notification">Notification Volume</string>
+	<string name="volume_media">Media Volume</string>
+	<string name="volume_alarm">Alarm Volume</string>
+	<string name="volume_voice_call">In-Call Volume</string>
+	<string name="volume_system">System Volume</string>
+	<string name="volume_bind">Use Ringer Volume For Notifications</string>
+	<string name="optimization_options">Optimization Options</string>
+	<string name="show_phone_information">Show Device Information</string>
+	<string name="show_the_cpu_frequency_chart">Show CPU Frequency Chart</string>
+	<string name="show_cpu_load_chart">Show CPU Load Chart</string>
+	<string name="show_temperature_chart">Show Temperature Chart</string>
+	<string name="show_voltage_chart">Show Voltage Chart</string>
+	<string name="show_the_average_power">Show Average Power</string>
+	<string name="mode_options">Mode Options</string>
+	<string name="app_tips">App Tips</string>
+	<string name="days">d</string>
+	<string name="hours">h</string>
+	<string name="minutes">m</string>
+	<string name="seconds">s</string>
+	<string name="freememory">Optimize Memory</string>
+	<string name="save">Save</string>
+	<string name="restore_default">Default</string>
+	<string name="ringer_silent">Silent</string>
+	<string name="ringer_sound">Sound Only</string>
+	<string name="ringer_vibro">Vibration Only</string>
+	<string name="ringer_vibrosound">Sound &amp; Vibration</string>
+	<string name="optimize_io">Optimize I/O (Input/Output)</string>
+	<string name="optimize_system">Optimize System</string>
+	<string name="app">App</string>
+	<string name="hardware">Hardware</string>
+	<string name="monitor_power_usage_settings">Monitor Power Usage Settings</string>
+	<string name="need_to_re_open_the_power_monitor">Please Re-open the Power Monitor</string>
+	<string name="screen_timeout">Screen Timeout</string>
+	<string name="screen_timeout_value_seconds">%d Seconds</string>
+	<string name="screen_timeout_value_minute">%d Minute</string>
+	<string name="screen_timeout_value_minutes">%d Minutes</string>
+	<string name="screen_timeout_value_never">Never Timeout</string>
+	<string name="notification">Notification</string>
+	<string name="show_battery_percentage_in_the_status_bar">Show Battery Percentage in Status Bar</string>
+	<string name="the_floating_window">The Floatation Window</string>
+	<string name="show_a_floatation_window_on_the_desktop">Show Floatation Window on Desktop</string>
+	<string name="ringtone_tips">Ringtone Tips</string>
+	<string name="ringtone_tips_when_the_status_change">Ringtone Tips when Status Changes</string>
+	<string name="all">All</string>
+	<string name="turned_off">Turned OFF</string>
+	<string name="turned_on">Turned ON</string>
+	<string name="disabled">Disabled</string>
+	<string name="enabled">Enabled</string>
+	<string name="sdcard_storage">SDCard Storage</string>
+	<string name="phone_data_storage">Phone Data Storage</string>
+	<string name="ram_memory">The Percentage of RAM free</string>
+	<string name="this_is_the_default_setting">Default Settings</string>
+	<string name="changing_mode">Changing Mode...</string>
+	<string name="checking_for_update">Checking for Update...</string>
+	<string name="check_for_updates_fails">Update Failed: Check Network Status!
+	</string>
+	<string name="your_current_version_is_the_newest">You are Running the Most Current Version!</string>
+	<string name="downloading_the_upgrade_package">Downloading Upgrade Package, Please Wait...
+	</string>
+	<string name="battery_calibration">Battery Calibration</string>
+	<string name="battery_calibration_info">Step 1. Connect your device to its charger\nStep
+		2.
+		Wait until it charges to 100%\nStep 3. Click \'Battery
+		Calibration\'\nStep 4. Unplug your device
+	</string>
+	<string name="sunday">Sunday</string>
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+	<string name="wait_till_100_shown">Wait until 100% is Displayed</string>
+	<string name="current_charge">Current Charge:</string>
+	<string name="calibration_succeeded">Calibration Successful! You may Unplug your device
+		now!
+	</string>
+	<string name="calibrafion_failed">Calibration Failed! Your device MUST be Rooted!
+	</string>
+	<string name="master_volume_desc">R: %1$d, N: %2$d, M: %3$d, A: %4$d</string>
+	<string name="turn_on_ai_battery">Turn ON</string>
+	<string name="turn_off_ai_battery">Turn OFF</string>
+	<string name="battery_temperature_overheat_alert">Battery Over-Heating Alert!!!</string>
+	<string name="rild">Android Radio Service</string>
+	<string name="akmd">Android G-Sensor</string>
+	<string name="dhcpcd">Android DHCP Service</string>
+	<string name="plugin_your_phone_to_the_charger">Please Connect your device to the Charger!</string>
+	<string name="close">Close</string>
+	<string name="please_unplug_your_phone">Please disconnect your device from the Charger!
+	</string>
+	<string name="performance">Performance</string>
+	<string name="interactive">Interactive</string>
+	<string name="conservative">Conservative</string>
+	<string name="ondemand">Ondemand</string>
+	<string name="powersave">Powersave</string>
+	<string name="userspace">Userspace</string>
+	<string name="keystore">Android KeyStore Service</string>
+	<string name="optimizing_cpu">Optimizing CPU...</string>
+	<string name="update_version">Update Version</string>
+	<string name="current_version">Current Version: </string>
+	<string name="latest_version">Latest Version:</string>
+	<string name="mah">mA</string>
+	<string name="uah">μA</string>
+	<string name="memory_is_currently_in_a_great_state">Memory is currently in a Good State.</string>
+	<string name="memory_has_been_released">Memory has been Released %1$s, Release %2$s
+	</string>
+	<string name="important_tips">Important Tips</string>
+	<string name="optimization_tips">Optimization Tips</string>
+	<string name="optimization_suggestions">Optimization Suggestions</string>
+	<string name="consume">Power:</string>
+	<string name="power_consumption_information">Power Consumption Information</string>
+	<string name="statistics">Statistics</string>
+	<string name="hardware_usage">Hardware Usage</string>
+	<string name="usage_type_on_time">Time ON</string>
+	<string name="battery_sugg_display">Reduce the Screen Brightness and/or Screen Timeout
+	</string>
+	<string name="battery_sugg_wifi">Turn OFF WiFi when Not Using it or where it is Not
+		Available
+	</string>
+	<string name="battery_sugg_bluetooth_basic">Turn OFF Bluetooth when you aren\'t using it
+	</string>
+	<string name="wakeup_time">Wakeup Time</string>
+	<string name="battery_sugg_radio">1. Turn OFF mobile data when you aren\'t using
+		it\n2. Switch to Airplane mode to save power in areas with no cell
+		coverage
+	</string>
+	<string name="total_power_consumption">Total Power Consumption:</string>
+	<string name="optimizing_internet">Optimizing Internet...</string>
+	<string name="optimizing_kernel">Optimizing Kernel...</string>
+	<string name="optimizing_wifi">Optimizing WiFi...</string>
+	<string name="optimizing_sdcard">Optimizing SDCard...</string>
+	<string name="the_charger_status_changes">The Charging Status Changed</string>
+	<string name="power_full">Power Full</string>
+	<string name="important_optimization_information">Important Optimization Info</string>
+	<string name="we_improve_the_power_for_you">Power Consumption Improved from %1$s to %2$s
+	</string>
+	<string name="no_optimization_information">No Optimization Information Available</string>
+	<string name="no_app_information">No Proactive Defense Information Available</string>
+	<string name="you_can_uninstall_the_application">When a Third-party applications Power
+		Consumption
+		reaches a certain percentage, You should uninstall that
+		application
+	</string>
+	<string name="the_third_party_applications">The Third-party Application</string>
+	<string name="can_not_uninstall">Cannot Un-Install</string>
+	<string name="can_not_run_this_app">Cannot Run this App</string>
+	<string name="turn_off_idle">1. Turn OFF Background Data\n2. Turn OFF
+		Automatic
+		Synchronization\n3. Turn OFF GPS\n4. Turn OFF WiFi\n5. Turn
+		OFF WiFi
+		Hot Spot\n6. Turn OFF Bluetooth
+	</string>
+	<string name="no_suggestions">No Suggestions</string>
+	<string name="version_update">Version Update</string>
+	<string name="sizestr">Size:</string>
+	<string name="later">Later</string>
+	<string name="betide">Betide:</string>
+	<string name="auto_brightness">Auto Brightness</string>
+	<string name="usb">USB</string>
+	<string name="protecting_your_battery">Protecting your Battery...</string>
+	<string name="dbusdaemon">Android Message Daemon</string>
+	<string name="bootanimation">Boot Animation</string>
+	<string name="floating_window_animation">The Floatation Window Animation</string>
+	<string name="the_desktop_floating_window_animation">The Desktop Floatation Window Animation</string>
+	<string name="slide_left">Slide (Left)</string>
+	<string name="slide_right">Slide (Right)</string>
+	<string name="slide_top">Slide (Top)</string>
+	<string name="fade_center">Fade (Center)</string>
+	<string name="none">None</string>
+	<string name="hidden">Hidden</string>
+	<string name="protecting_your_battery_time">Protecting Battery Resources:</string>
+	<string name="settings_options">Settings Options</string>
+	<string name="brightness_title">
+		Reduce Screen Brightness
+	</string>
+	<string name="brightness_descr">
+		Set the brightness of the screen to the lowest
+		value you find comfortable: \n\n
+		1. Open the Applications Tab and
+		tap
+		Settings. Then tap Sound &amp;
+		Display.\n
+		2. Tap Brightness, and set
+		the
+		value to the desired level.\n
+	</string>
+	<string name="test">Test</string>
+	<string name="enter_search_key">Enter Search Key</string>
+	<string name="a_key_improve">A Key Improve</string>
+	<string name="scanning">Scanning...</string>
+	<string name="remind">Reminder</string>
+	<string name="usage_type_cpu">CPU Total</string>
+	<string name="usage_type_cpu_foreground">CPU Foreground</string>
+	<string name="status_awake_time">Wakeup Time</string>
+	<string name="get_battery_data_error">Get Battery Data Error</string>
+	<string name="scale">Scale</string>
+	<string name="always_top">Always on Top</string>
+	<string name="floating_on_the_desktop">Floating on the Desktop</string>
+	<string name="detecting_power_consumption_app">Detecting Power Consumption Apps, Please Wait...
+	</string>
+	<string name="real_time_protection_is_turned_on">Real-time Protection is ON</string>
+	<string name="real_time_protection_is_turned_off">Real-time Protection is OFF</string>
+	<string name="the_floatation_window_infomation">The Floatation Window Infomation</string>
+	<string name="show_infomation_in_the_floatation_window">Show Infomation in the Floatation Window</string>
+	<string name="internet_speed">Internet Speed</string>
+	<string name="battery_level">Battery Level</string>
+	<string name="quick_scan">Quick Scan</string>
+	<string name="consumption_apps">Consumption Apps</string>
+	<string name="used">Used:</string>
+	<string name="invalid_optimization_after_restart">Power Optimization Invalid after a Reboot</string>
+	<string name="wifi_tips">WiFi Tips</string>
+	<string name="wifi_tips_when_the_status_changes">WiFi Tips after Status Changes</string>
+	<string name="change_brightness">Change Brightness</string>
+	<string name="download">Download</string>
+	<string name="upload">Upload</string>
+	<string name="list_is_empty">List is Empty</string>
+	<string name="clear_customize">Clear Customizations</string>
+	<string name="setting_customize">Setting Customizations</string>
+	<string name="customization_is_turned_on">Customizations are ON</string>
+	<string name="charge_protection">Charge Protection Time:</string>
+	<string name="uncharge_protection">Un-Charge Protection Time:</string>
+	<string name="optimization_is_complete">Optimizations are Complete</string>
+	<string name="your_phone_is_good">Your Device is Good</string>
+	<string name="improve_battery_desc">Improved Battery, from %1$s to %2$s</string>
+	<string name="is_a_non_power_consumption_application">is Not a Battery Drain App</string>
+	<string name="is_a_power_consumption_application">Is a Battery Drain App!</string>
+	<string name="close_the_usb_debug">Closing USB debugging will reduce your System Wake
+		Ups
+	</string>
+	<string name="please_enter_the_feedback_content">Please enter your Feedback/Comments</string>
+	<string name="email">Email:</string>
+	<string name="qq">QQ:</string>
+	<string name="msg_feedback">Your Feedback/Comments have been Successfully Sent,
+		Thank You!
+	</string>
+	<string name="failure_feedback_msg">Submission Failure: Please check your Network
+		Status and try again.
+	</string>
+	<string name="install_time">Install Time:</string>
+	<string name="uninstalled">Uninstalled</string>
+	<string name="application_has_been_uninstalled">This Application has been Uninstalled</string>
+	<string name="feedbacking">Sending Feedback/Comments...</string>
+	<string name="email_format_is_not_correct">Your E-mail Format is Incorrect</string>
+	<string name="connection_timed_out">Connection Timed-out</string>
+	<string name="one_battery_desc">One Power Guard is a unique battery enhancement
+		tool
+		designed to conserve your battery power and increase uptime on
+		rooted
+		Android smartphones/tablets. One Power Guard will decrease your
+		charging
+		time and increase your device performance while also
+		increasing your
+		uptime. One Power Guard will also protect your device
+		from faulty
+		applications that can: cause over-heating (decreasing your
+		battery
+		lifespan); run down your battery; prevent your device from
+		deep-sleeping; and, use unneeded resources such as WiFi and Cell Data.
+		By selecting any one of the six customized power-saving modes, you are
+		able to match your power savings needs to your lifestyle.
+		There is no
+		need to purchase extra batterys or a larger battery, just use
+		One Power
+		Guard.
+	</string>
+	<string name="one_battery_features">Features\n 1. Extends stand-by time and battery
+		life; optimizes charging parameters\n
+		2. Optimizes system kernel and
+		CPU usage to improve device performance\n
+		3. Six (6) customized
+		power-saving
+		modes to suit
+		different scenarios\n
+		4. Proactively guards
+		from
+		power-killer apps and
+		safely shuts down useless power-consuming
+		programs\n
+		5. Fast ON/OFF settings for 100% system customization\n
+		6.
+		Intelligently switches to/from WiFi/Cell data to preserve battery
+		life\n
+		7. Professional Tips on power optimization\n
+
+	</string>
+	<string name="ai_mode_desc">
+		AI Mode: Artificial Intelligence Mode. Learns from how you use your
+		device.\n\n
+		By default, this mode uses the
+		<b>Ondemand</b>
+		governor - under increasing system load, the CPU is immediately set to
+		the maximum frequency of the kernel. As system load decreases, the CPU
+		frequency slowly decreases to the minimum frequency of the kernel.\n\n
+		<b>NOTE</b>
+		: If your kernel supports over/under clocking you may want to change
+		the upper/lower frequency bounds to stay within safe limits.\n\n
+		By
+		default, AI Mode uses the
+		<b>CFQ</b>
+		(Completely Fair Queuing) I/O scheduler - delivers balanced
+		performance and excels on multi-processor devices. Changing the
+		governor and the I/O scheduler are permitted but, that defeats the
+		benefits of the AI mode. Use Custom mode, if you want to explore
+		different settings.
+	</string>
+	<string name="powersave_mode_desc">
+		Powersave Mode: A balance between device usage and power saving.\n\n
+		By
+		default, this mode uses the
+		<b>Powersave</b>
+		governor - keeps the CPU frequency always at the minimum, it is the
+		least power-hungry and the least responsive.\n\n
+		By default, this modes
+		uses the
+		<b>CFQ</b>
+		(Completely Fair Queuing) I/O scheduler - delivers balanced
+		performance and excels on multi-processor devices.
+	</string>
+	<string name="game_mode_desc">
+		Game/Video Mode: Useful mode for playing games and watching video -
+		enjoy smooth operation and a smooth video experience. \n\n
+		By default,
+		uses the
+		<b>Performance</b>
+		governor - sets the min. frequency as max. frequency, this mode is the
+		most power-hungry, but is also the most responsive. If your kernel
+		support overclocking you can set a higher frequency.\n\n
+		By default, this
+		mode uses the
+		<b>CFQ</b>
+		(Completely Fair Queuing) I/O scheduler - delivers balanced
+		performance and excels on multi-processor devices.
+	</string>
+	<string name="daily_mode_desc">
+		Daily Mode: Useful for day-to-day operation, featuring responsive and
+		reasonable power usage.\n\n
+		By default, this mode uses the
+		<b>Ondemand</b>
+		governor - under increasing system load, the CPU is immediately set to
+		the maximum frequency of the kernel. As system load decreases, the CPU
+		frequency slowly decreases to the minimum frequency of the kernel.\n\n
+		<b>NOTE</b>
+		: If your kernel supports over/under clocking you may want to change
+		the upper/lower frequency bounds to stay within safe limits.\n\n
+		By
+		default, this mode uses the
+		<b>CFQ</b>
+		(Completely Fair Queuing) I/O scheduler - delivers balanced
+		performance and excels on multi-processor devices.
+	</string>
+	<string name="standby_mode_desc">
+		Standby Mode: Useful for maximum battery conservation.\n\n
+		By default,
+		this mode uses the
+		<b>Powersave</b>
+		governor - keeps the CPU frequency always at the minimum, it is the
+		least power-hungry and the least responsive.\n\n
+		By default, this modes
+		uses the
+		<b>CFQ</b>
+		(Completely Fair Queuing) I/O scheduler - delivers balanced
+		performance and excels on multi-processor devices.
+	</string>
+	<string name="custom_mode_desc">Custom Mode: You choose everything: the governor,
+		the min and max
+		frequencies, and the I/O scheduler. Do a Nandroid backup first. Have Fun!
+	</string>
+	<string name="mode_choose">How do I select a battery protection mode?\n 1.
+		Enter the optimization interface\n
+		2. Select
+		the battery protection
+		mode\n
+	</string>
+	<string name="failure">Failure</string>
+	<string name="succes">Success</string>
+	<string name="canceled">Canceled</string>
+	<string name="could_not_initialize_the_paypal">Could not Initialize PayPal.</string>
+	<string name="unable_to_connect_to_the_network">Unable to connect to the Network</string>
+	<string name="defense">Defense</string>
+	<string name="clean">Clean</string>
+	<string name="powersave_mode_payment">Powersave Mode Payment</string>
+	<string name="game_mode_payment">Game/Video Mode Payment</string>
+	<string name="daily_mode_payment">Daily Mode Payment</string>
+	<string name="standby_mode_payment">Standby Mode Payment</string>
+	<string name="custom_mode_payment">Custom Mode Payment</string>
+	<string name="payment_failure">Payment Failure</string>
+	<string name="payment_succes">Payment Succes</string>
+	<string name="canceled_payment">Canceled Payment</string>
+	<string name="bluetoothd">Android Bluetooth Daemon</string>
+	<string name="special_offers">Special offers</string>
+	<string name="special_offers_desc">Upgrade for advanced users, with different
+		power-saving modes,contribute $%1$s for all modes</string>
+	<string name="time_left">Time Left:</string>
+	<string name="special_offers_show">Congratulations,you are an advanced user,width all
+		power-saveing modes.
+	</string>
+	<string name="upgrade_to_the_custom_user">Upgrade to Custom user, you can customize the
+		CPU
+		frequency, CPU governor, I/O scheduler, contribute $%1$s</string>
+	<string name="upgrade_to_the_powersaving_user">Upgrade to Power-saving user, you can find
+		balance
+		between use and power consumption, contribute $%1$s
+	</string>
+	<string name="upgrade_to_the_video_game_user">Upgrade to Video game user, you will be able to
+		enjoy smooth operation and a smooth video experience, contribute $%1$s
+	</string>
+	<string name="upgrade_to_the_business_user">Upgrade to the Business user, so that talk
+		time is
+		longer, contribute $%1$s</string>
+	<string name="upgrade_to_the_standby_user">Upgrade to the Standby user, If you like
+		standby,
+		contribute $%1$s</string>
+	<string name="wifi_disconnect_for_power_saving">WiFi disconnected for power saving</string>
+	<string name="min">Min</string>
+	<string name="max">Max</string>
+	<string name="cpu_frequency">CPU Frequency</string>
+	<string name="cpu_governor">CPU Governor</string>
+	<string name="io_scheduler">I/O Scheduler</string>
+	<string name="initialization_error">Initialization Error</string>
+	<string name="proactive_defense_is_turned_on">Proactive Defense is turned ON</string>
+	<string name="power_saving_tips">Power Saving Tips</string>
+	<string name="no_sdcard_cannot_save_the_certificate">No SDCard, cannot save the certificate</string>
+	<string name="installed_power_consumption_apps">Installed Power Consumption Apps</string>
+	<string name="device_information">Device Information</string>
+	<string name="proactive_defense">Proactive Defense</string>
+	<string name="weibo">#One Power Guard# is a battery protection app, an
+		AMAZING app for the root user\'s toolbox. Download from Android Play:
+		http://goo.gl/8rdal
+	</string>
+	<string name="wakeup_apps">Wakeup Process</string>
+	<string name="audio_1">Uncheck these options: 1."Keytones" 2."Touch
+		sounds"
+		3."Screen lock sound"
+	</string>
+	<string name="now_experience">Now Experience</string>
+	<string name="boot_power_saving_protection">Reboot Protection</string>
+	<string name="when_restart_your_phone_automatic_power_saving_protection">After reboot, Autorun
+		Power-saving Protection
+	</string>
+	<string name="why_do_you_need_one_power_guard_for_root_users">
+		Test One Power Guard for yourself?\n
+		\n
+		1. Fully
+		charge
+		your battery before you go to bed. In the morning, check your
+		battery
+		status and note how much is remaining.\n
+		2. After installing One
+		Power
+		Guard, fully charge the battery before you go to bed.
+		In the
+		morning,
+		check your battery status, you will be impressed by the power
+		savings!\n
+		3. To compare the
+		optimization results, you need to restart
+		the phone so
+		that you have a clean
+		environment.\n
+	</string>
+	<string name="disable_wifi_title">Disable WiFi when Not in Use</string>
+	<string name="disable_wifi_desc">Disabling the Wireless LAN (WiFi) when not in use
+		will reduce power consumption considerably:\n
+
+		1. Open the
+		Applications
+		tab and tap Settings. Next tap Wireless Controls or
+		Wireless &amp;
+		Networks.\n
+		2. Here you will find dedicated buttons to
+		disable WiFi.\n
+	</string>
+	<string name="disable_gps_title">Disable the GPS location services</string>
+	<string name="disable_the_gps_desc">1. Open the Applications tab and tap Settings. Then
+		tap Location &amp; Security.
+		On this screen, clear the Use GPS
+		Satellites check box.\n
+	</string>
+	<string name="disable_bluetooth_title">Disable Bluetooth when not in use</string>
+	<string name="disable_bluetooth_desc">Disabling Bluetooth when not in use
+		will reduce
+		Power Consumption Considerably:\n
+	</string>
+	<string name="set_timeout_title">Set Screen Timeout</string>
+	<string name="set_timeout_desc">Set the time value before the screen goes blank.
+		The lower the setting, the less battery power gets used:\n\n
+
+		1. Open
+		the
+		Applications tab and tap Settings. Then tap Sound &amp;
+		Display.\n
+		2. Tap Screen Timeout, and set it to a lower value, for example 15
+		seconds.\n
+	</string>
+	<string name="disable_sync_title">Disable Sync &amp; Mobile Data</string>
+	<string name="disable_sync_desc">1. Open the Applications tab and tap Settings. Then
+		tap Accounts &amp;
+		sync.\n
+		2. Uncheck background data and auto-sync\n
+	</string>
+	<string name="wallpaper_title">Don\’t Use Live Wallpapers</string>
+	<string name="wallpaper_desc">One of the greatest features of Android is that it
+		supports live
+		wallpapers. The look of live wallpapers is great to watch
+		but the disadvantage is that they consume lots of battery power due to
+		its high resolution graphics. It is recommended that you use
+		normal
+		wallpaper instead of live wallpaper.
+	</string>
+	<string name="wallpaper">Wallpaper</string>
+	<string name="a_desr">1A=1000mA=1000000μA</string>
+	<string name="deep_sleep">Deep Sleep</string>
+	<string name="cpu_stats">CPU Stats</string>
+	<string name="unused_cpu_frequency">Unused CPU Frequency</string>
+	<string name="total_uptime">Total Uptime</string>
+	<string name="cpu_frequency_ratio">CPU Frequency Ratio</string>
+	<string name="wakeups">Wakeups: </string>
+	<string name="launches">Launches: </string>
+	<string name="using_all_the_CPU_frequency">Using all the CPU frequency</string>
+	<string name="story">First of all, what are the common complaints
+		with
+		Android smartphone devices? Issues such as: system halted; application
+		crashes; slow booting; and, battery life.\n
+
+		A year ago, I purchased my
+		first Android phone and installed CM ROM. Within months, I became very
+		annoyed that my battery did not last the entire day. I could go to
+		bed, with a full battery
+		charge, and awake in the morning to find that
+		the battery charge had
+		dropped significantly overnight. I found this
+		situation to be
+		unacceptable! To solve this, I downloaded power-saving
+		applications.
+		Every day I would install a different power saving
+		application, charge
+		the battery to full power before bed, and then
+		check the battery in
+		the morning. After a month of testing power saving
+		applications, I
+		didn\'t find a satisfactory solution and some of the
+		so-called power
+		saving apps even made the battery drain faster. So, I
+		thought I would
+		create an app for myself, that could tweak system
+		parameters and help
+		save my battery. Nine months ago, I started writing
+		a power tweaking
+		application for myself. I studied the intracies of the
+		Android power
+		management mechanism and within a few months I had the
+		basis for an
+		application that could optimize my power management.
+		Everyday, I
+		tweaked the power optimization parameters and tested each
+		night. One
+		morning, I awoke and was thrilled to discover that the
+		battery charge
+		had only decreased by a small amount. So, I turned my
+		personal power
+		saving tweaker into a user-friendly power saving
+		application that
+		anyone could use. I am sharing my application, One
+		Power Guard with
+		you.\n
+
+		If you would like to try One Power
+		Guard,
+		Download from
+		onexuan.com\n\n
+		To save power, One
+		power Guard do some
+		optimization:\n
+		1. Extends stand-by time and battery life; optimizes
+		charging parameters\n
+		2. Optimizes system kernel and CPU usage to improve device performance\n
+		3. Six (6) customized power-saving modes to suit different scenarios\n
+		4. Proactively guards from power-killer apps and safely shuts down
+		useless power-consuming programs\n
+		5. Fast ON/OFF settings for 100% system customization\n
+		6. Intelligently switches to/from WiFi/Cell data to preserve battery
+		life\n
+		7. Professional Tips on power optimization\n\n
+
+		Why do you need One Power
+		Guard? and Test One Power Guard for yourself.\n
+		1. Fully
+		charge
+		your
+		battery before you go to bed. In the morning, check your
+		battery
+		status
+		and note how much is remaining.
+		2. After installing One
+		Power
+		Guard,
+		fully charge the battery before you go to bed.
+		In the
+		morning,
+		check your
+		battery status, you will be impressed by the power
+		savings!\n
+		3. To
+		compare the
+		optimization results, you need to restart the phone so
+		that
+		you have a clean
+		environment.\n
+	</string>
+	<string name="standby_problems">Battery Standby Problems?</string>
+	<string name="contact_us">Please contact Paypal or send an email to
+		contact@onexuan.com
+	</string>
+	<string name="warn">Warning</string>
+	<string name="warn_info">These tweaks will optimize your kernel, CPU,
+		network, SD card read write, memory, and restart your phone.
+		Everything will be restored to original, please confirm whether
+		you
+		want to optimize?
+	</string>
+	<string name="remind_warn">Do not remind me</string>
+	<string name="this_optimization_will_run_the_AI_mode">This optimization will run the AI mode.</string>
+	<string name="support_app">If you like this application, please support our
+		optimization work, you will not be prompted again and
+		you can use all
+		optimization features.
+	</string>
+	<string name="questions_in_use">If you have any issues with usage, please visit
+		&lt;a
+		href=\"http://forum.xda-developers.com/showthread.php?t=1947559&lt;\"&gt;http://forum.xda-developers.com/showthread.php?t=1947559&lt;\\a&gt;,
+		welcome to give praise.
+	</string>
+	<string name="try_it">Try It</string>
+	<string name="no_support_to_adjust_the_cpu_frequency">No support to adjust the CPU frequency</string>
+	<string name="no_support_to_adjust_the_cpu_policy">No support to adjust the CPU policy</string>
+	<string name="no_support_to_adjust_the_io_scheduler">No support to adjust the I/O scheduler</string>
+	<string name="real_time_protection">Real-time protection</string>
+	<string name="your_phone_does_not_support_this_setting">Your phone does not support this setting</string>
+	<string name="what_is_a_safe_clean">What is a safe clean?</string>
+	<string name="safe_clean_info">Android has a app process management mechanisms,
+		when a process is killed by third-party applications, the Android
+		system
+		will determine whether the process will be run again, if it is,
+		the process
+		will run, the kill process will repeat thereby creating an
+		infinite loop,
+		resulting in increased power consumption. Therefore, you
+		should consider
+		uninstalling third-party process management software.
+	</string>
+	<string name="in_such_cases">In such cases, please upgrade to the latest version
+		from the official website. http://www.onexuan.com
+	</string>
+	<string name="unable_to_open_sharing">Unable to open sharing</string>
+	<string name="how_to_restore_the_original">How to restore the phone\'s original parameters?
+	</string>
+	<string name="restore_info">All modes optimize your kernel, CPU,
+		network, SD
+		card read write, memory, if you do not want to use this app, just
+		uninstall this app or uncheck boot protection in settings interface,
+		and then restart your phone,
+		everything will be restored to
+		original.
+	</string>
+	<string name="why_does_it_run_in_the_background">Why does it run in the background?</string>
+	<string name="background_info">We have a \"safe clean\" technology, primarily in
+		order to protect your battery. Needs to run in the background,
+		to
+		periodically safe clean.
+	</string>
+	<string name="reviews">Reviews</string>
+	<string name="others">Others</string>
+	<string name="one_percent_hack">One Percent Hack</string>
+	<string name="ten_percent_info">Use workaround for devices that show only multiples
+		of 10%</string>
+	<string name="poweroff">Poweroff</string>
+	<string name="poweroff_tips">Poweroff Tips</string>
+	<string name="auto_poweroff_device_info">Auto poweroff device at certain battery level
+	</string>
+	<string name="user_reviews_from_google_play">Update Or Reviews From Google Play</string>
+	<string name="google_play">Google Play</string>
+	<string name="official_website">Official Website</string>
+	<string name="update_from_official_website">Update From Official Website</string>
+	<string name="install_tips">
+		Make sure you have root access, and that One Power
+		Guard can access
+		root. if asked by Superuser, make sure the Remember
+		checkbox is checked
+		and press Allow.\n
+		\n
+		This application tweaks
+		hardware settings. Use it
+		with caution and at your
+		own risk.\n\n
+		Because Android is fragmented,
+		Different machines are different. this
+		application is still a work in
+		progress, some functions will be
+		perfect, some bugs will be found.
+		If it
+		does cause some problems,
+		please go to
+		<a href="http://forum.xda-developers.com/showthread.php?t=1947559">http://forum.xda-developers.com/showthread.php?t=1947559</a>
+		report your issue and update to the latest version.\n\n
+		Don\'t kill
+		One
+		Power Guard with a task manager.\n\n
+
+		Some phones force the phone
+		to go
+		to sleep at lower speeds, this may cause
+		crashes. Example: Galaxy S \n
+	</string>
+	<string name="xda_forum_discuss">XDA Forum Discussion</string>
+	<string name="discussion_and_feedback">Discussion and Feedback</string>
+	<string name="continuestr">Continue</string>
+	<string name="checking_cpu">Checking your system whether to automatically
+		adjust CPU...
+	</string>
+	<string name="automatic_adjustment">Your phone has the ability to automatically adjust
+		the CPU frequencies, you do not need to change the CPU frequencies.
+	</string>
+	<string name="notification_style">Notification Style</string>
+	<string name="show_battery_notification_style">Show Battery Notification Style</string>
+	<string name="defaultstr">Default</string>
+	<string name="white">White</string>
+	<string name="green">Green</string>
+	<string name="orange">Orange</string>
+	<string name="give_up">Give Up</string>
+	<string name="onepercentinfo">
+		If your device only shows the battery level in 10% increments by
+		default (
+		<b>most
+			Motorola phones work this way
+		</b>
+		), then you should turn on the \"One-percent Hack\" in
+		\"Other
+		Settings\" to enable one-percent increments. Some Motorola phones
+		don\'t support
+	</string>
+	<string name="your_phone_does_not_support">Your phone does not support</string>
+	<string name="why_drain">Why is my battery discharging while connected to my
+		computer?
+	</string>
+	<string name="drain_power_info">USB charging will wake your device, update your
+		Android USB driver to solve this problem, or USB device aging.
+	</string>
+	<string name="unconfigured">NOT Configured!</string>
+	<string name="configured">Configured</string>
+	<string name="only_supports_root_user">Only supports Rooted Devices</string>
+	<string name="optimize_vm">Optimize VM(Virtual Machine)</string>
+	<string name="optimize_deep_sleep">Optimize Deep Sleep</string>
+	<string name="optimize_network">Optimize Network(TCP\\IPV4\\WR Memory)</string>
+	<string name="optimize_wireless">Optimize Wireless(WiFi\\UMTS\\GPRS\\EDGE)</string>
+	<string name="optimize_ril">Optimize RIL</string>
+	<string name="optimize_sdcard">Optimize SDCard(Read\\Write)</string>
+	<string name="optimize_kernel">Optimize Kernel</string>
+	<string name="saved_successfully">Saved Successfully</string>
+	<string name="special_thanks">Special thanks to Luis Diaz\'s (Herone) Spanish
+		translation, Dave\'s (DaGunn) help with English, Georg Aubele\'s
+		(Der-Knuffi) German translation, they are from the
+		XDA forum, thanks
+		again for your hard work.
+
+	</string>
+	<string name="thanks">Thanks</string>
+	<string name="free_up_memory">Free Up Memory</string>
+	<string name="return_to_the_desktop_free_up_memory">Return to the Desktop, Free Up Memory</string>
+	<string name="time_in_state_file_missing">/sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state
+		missing, Maybe may be able to solve this issue by rebooting</string>
+	<string name="show_fahrenheit_temperature">Show Fahrenheit Temperature</string>
+	<string name="fahrenheit_temperature_units">℉</string>
+	<string name="set_on_boot">Set On Boot</string>
+	<string name="memory">Memory</string>
+	<string name="poweroff_settings">Poweroff Settings</string>
+	<string name="poweroff_log">Poweroff Log</string>
+	<string name="why_the_device_is_slow_after_setting">Why is my device slow after setting a mode?
+	</string>
+	<string name="my_story">I want to talk about this story. One night, a user
+		contacted me about an issue that came up after installing the 2.1
+		version of One Power Guard. He said his device lagged in Standby mode.
+		I told him that we can work together to solve his problem. After work,
+		I went back to my dorm. I started to write a test interface for him
+		and 1.5 hours later, we started testing. He began to test my ten-step
+		interface - each step ran well. But the issue was not resolved. I
+		asked him to select AI mode - his device lagged. What we found is that
+		his device did not support changing CPU frequencies. So my judgment
+		was that this was an I/O scheduler issue, it was set to "CFQ". I asked
+		him to try changing his I/O scheduler. (His Rom Only support CFQ and
+		Noop). He changed to "Noop" and the lag went away - issue resolved!
+		\n\nFinal conclusion: Tweak the settings until your device performs to
+		your satisfaction.
+	</string>
+	<string name="sort_by_total_power_consumption">Sort by Total Power Consumption</string>
+	<string name="sort_by_power_comparison_value">Sort by Power Comparison Value</string>
+	<string name="sort">Sort</string>
+	<string name="one_xuan">I\'m in your droid, unique apps from here\n One is
+		all cool(xuan).</string>
+	<string name="proactive_defense_tips">Proactive Defense Tips</string>
+	<string name="turn_off_proactive_defense_tips">Turn off Proactive Defense Tips</string>
+	<string name="unable_to_open_the_mobile_data_interface">Unable to open the mobile data interface, It is not available</string>
+	<string name="unable_to_open_the_interface">Unable to open the interface, It is not available</string>
+	<string name="the_amount_of_free_ram">The amount of free RAM</string>
+</resources>

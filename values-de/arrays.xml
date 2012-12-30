@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="networktip">
+		<item>Keine Tipps</item>
+		<item>Tipps nach 1 Minute</item>
+		<item>Tipps nach 5 Minuten</item>
+		<item>Tipps nach 15 Minuten</item>
+		<item>WiFi aus nach 10 Minuten</item>
+		<item>WiFi aus nach 15 Minuten</item>
+		<item>WiFi aus nach 20 Minuten</item>
+	</string-array>
+
+	<string-array name="hourKill">
+		<item>Kein sicheres Löschen</item>
+		<item>15 Minuten</item>
+		<item>30 Minuten</item>
+		<item>45 Minuten</item>
+		<item>1 Stunde</item>
+		<item>2 Stunden</item>
+		<item>3 Stunden</item>
+		<item>4 Stunden</item>
+		<item>5 Stunden</item>
+		<item>6 Stunden</item>
+		<item>7 Stunden</item>
+		<item>8 Stunden</item>
+		<item>9 Stunden</item>
+		<item>10 Stunden</item>
+		<item>11 Stunden</item>
+		<item>12 Stunden</item>
+	</string-array>
+</resources>
